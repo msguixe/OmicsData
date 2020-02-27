@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <br><br>
+    <form action="/bars_result" method="POST">
+        <label>Please copy your numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable1" rows=5 cols=110></textarea>
+    <form action="/bars_result" method="POST"><br>
+ <label>Please copy your variable labels (ex: Treatment1,Treatment2...) directly from your excel column</label><br>
+        <textarea name="input_variable2" rows=5 cols=110></textarea>
+    <form action="/bars_result" method="POST">
+<br>
+    <input type="submit" name="submit" value="Let's do it!">
+</div>
+{% endblock %}

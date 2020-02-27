@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <p>The R square is </p>
+    <p class="sequence">{{ output }}</p>
+    <p>The p-value is </p>
+    <p class="sequence">{{ pval }}</p>
+    <p>Please, always BE CAUTIOUS remember that correlation does not imply causation.</p> <a href="https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation"> Click here for more info abot this statement </a>
+</div>
+{% endblock %}

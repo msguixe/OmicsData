@@ -1,0 +1,2271 @@
+LOCUS       XM_032525434            2548 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor 2B
+            (htr2b), transcript variant X3, mRNA.
+ACCESSION   XM_032525434
+VERSION     XM_032525434.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045741.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2548
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="9"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2548
+                     /gene="htr2b"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 7 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116695297"
+     CDS             634..2055
+                     /gene="htr2b"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /protein_id="XP_032381325.1"
+                     /db_xref="GeneID:116695297"
+                     /translation="MSQAVVAPLEANNSQPGAVPEAQLKWAALLIVMVIIPTIGGNIL
+                     VILAVSLERKLQNATNYFLMSLAVADLLVGLLVMPIALVTVLYNSGWPLPEPLCPIWL
+                     FLDVLFSTASIMHLCAISLDRYIAIKKPIQHSQYKSRAKAMVKIALVWLISICIAIPI
+                     PIKGLKNYHLPNNITFNSNHTCMLKTDTFREFIMFGSLAAFFIPLTIMMVIYLLTVQV
+                     LRKKVYLLRSKVTQRFSYPTVSTVFQREPAATPPQTDQLNMLDSTLPRMQEKTYVDTT
+                     NSPTEDEMSFRRMSTMGKKSMQTLSNEQRASKVLGIVFLLFVVMWCPFFITNITSVLC
+                     TSCDVHVIARLMEIFVWVGYVSSGINPLVYTLFNQTFRQAFTRYITCNYETSASHGPG
+                     RHPRASNADRTLTRISFRSSMAENSKLFMKRGMKNGIGAVGYQSPLRCRQAPVRSSGG
+                     VVLDTMLLTENEAGKQAEHVSCV"
+ORIGIN      
+        1 cagagtcgga ctcatgggca agacggattg gagggagggg aagagtgaga gagcggacaa
+       61 gacgggagag agtgcaggct gatcacaggc tgtgaacaag agaaagcgag ttagagagag
+      121 gcagaggagc caaaacatct gaaagtttta aacctgtgaa cgcggttggt gatgcgaagc
+      181 aagactgggg gttcctccaa catgtggaag caaaacaaat tccacatcat ggactgcttc
+      241 agacagagac agatttaggt tttaccgttg ggggagggca ttctgtcgtg ttcttatttg
+      301 gataggatgg aaatataaaa aaggtagggg actattataa agatattaaa ctaaggtgtg
+      361 caaagattga gatgcttcga cgttaagctg cactgttctg tgtttacgca agttgagatg
+      421 tagcggcttg gaaaaaatac tctagtggaa acatcatgaa ggaagttaaa tgtattcctt
+      481 caggagcagt gcacaaggca tgaagcatcc tgtgcattga ccctgagctt tcctgagcct
+      541 gtgggacgca gtgaccatgc tgaccgagtg tccaacacca gaaagatcag atccccgacc
+      601 cacattaagg ccagctgtaa cctctgcagc accatgtctc aagcagttgt ggcaccactc
+      661 gaggctaaca actcacagcc aggagcagta cctgaggctc agctgaaatg ggctgctctg
+      721 ctcattgtta tggtcatcat ccccactatt ggaggaaaca tcctggtcat tcttgcagtg
+      781 tcccttgaaa gaaagctgca gaacgccacc aactactttc tgatgtcgct tgctgtggct
+      841 gatctgttgg tgggactcct agtaatgccc attgccctcg tcactgttct ctacaactca
+      901 ggctggcctc ttccggagcc cctctgccca atttggctgt tcctcgatgt gctgttttct
+      961 actgcatcca ttatgcacct atgcgccatt tcattggatc gctacattgc cataaagaag
+     1021 ccaatccaac acagccagta caaatccaga gccaaagcga tggtgaagat tgcactggtg
+     1081 tggcttatat ccatttgtat cgcaatccct attccaatta aggggcttaa gaactaccat
+     1141 cttcccaaca acatcacctt caacagcaac cacacatgca tgctgaaaac agacaccttc
+     1201 cgggagttta tcatgtttgg ctccttagcg gcattcttca tccctctgac catcatgatg
+     1261 gtcatctacc tacttactgt ccaggtgttg cggaaaaagg tttatttgct caggtcaaag
+     1321 gtgactcagc gctttagcta cccgacagtc tccacagttt ttcaaagaga accggcagcg
+     1381 actccacctc aaactgatca acttaacatg ctggacagca cacttccaag gatgcaagaa
+     1441 aaaacatatg tagacacaac aaactctcct acagaagatg aaatgtcctt tcggagaatg
+     1501 tcaacaatgg gcaagaagtc aatgcagact cttagcaacg agcagcgggc ctcaaaggtg
+     1561 ttaggcatcg tcttcctctt gtttgtagta atgtggtgcc ctttcttcat tactaatatc
+     1621 acctctgtgc tatgcacaag ctgtgatgtt catgtaatcg cccgcctgat ggagattttt
+     1681 gtttgggtgg gttatgtgtc atcaggcatc aacccgttgg tctacaccct attcaaccaa
+     1741 actttcaggc aagcgttcac gcgttacatc acctgcaatt acgaaacctc tgctagtcat
+     1801 gggccaggaa ggcacccaag ggcatcaaat gcagatcgga cccttacacg gatttcattc
+     1861 agatcttcca tggcagaaaa ctctaaactg ttcatgaagc ggggaatgaa gaatggcatt
+     1921 ggagcagttg gctaccaaag tccactaagg tgccggcaag cacctgtacg gtcatctggt
+     1981 ggtgttgtgt tagatacaat gcttctgact gaaaatgaag ctggtaagca ggcggaacat
+     2041 gttagctgtg tatagagata ccagacaatt gaatcaaatt aaaaaggtag cacttgaaat
+     2101 ggatcaaaat catggtgcaa actttttaat ctctttaaag ataaatgcta ttctcacaac
+     2161 aaatattcaa aatacataat tctgaatcgg ctattgctct caaatttgac taccaaatat
+     2221 tttaacgcca gtgcttactt tacactacac aacaacaaaa tgtaacctgt tgctctctgg
+     2281 tttgtttaca tcagtaattc tttttttttt tttttttttt aacaaaaagc aaaataaggc
+     2341 aatattttca attatgatca ttttagaaac acaaatgtca accataaggc aaacaattat
+     2401 atgtgaatat ataataatat ttcccactgg gtctttaaga caggccgtat taataatgtg
+     2461 aagtcagtta aaagtgtacc agaagagagt ttgagttttc aaacgttata aaaccttgag
+     2521 atgacctgta acaggttgac taaaaaaa
+//
+
+LOCUS       XM_032525433            2757 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor 2B
+            (htr2b), transcript variant X2, mRNA.
+ACCESSION   XM_032525433
+VERSION     XM_032525433.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045741.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2757
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="9"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2757
+                     /gene="htr2b"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116695297"
+     CDS             843..2264
+                     /gene="htr2b"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /protein_id="XP_032381324.1"
+                     /db_xref="GeneID:116695297"
+                     /translation="MSQAVVAPLEANNSQPGAVPEAQLKWAALLIVMVIIPTIGGNIL
+                     VILAVSLERKLQNATNYFLMSLAVADLLVGLLVMPIALVTVLYNSGWPLPEPLCPIWL
+                     FLDVLFSTASIMHLCAISLDRYIAIKKPIQHSQYKSRAKAMVKIALVWLISICIAIPI
+                     PIKGLKNYHLPNNITFNSNHTCMLKTDTFREFIMFGSLAAFFIPLTIMMVIYLLTVQV
+                     LRKKVYLLRSKVTQRFSYPTVSTVFQREPAATPPQTDQLNMLDSTLPRMQEKTYVDTT
+                     NSPTEDEMSFRRMSTMGKKSMQTLSNEQRASKVLGIVFLLFVVMWCPFFITNITSVLC
+                     TSCDVHVIARLMEIFVWVGYVSSGINPLVYTLFNQTFRQAFTRYITCNYETSASHGPG
+                     RHPRASNADRTLTRISFRSSMAENSKLFMKRGMKNGIGAVGYQSPLRCRQAPVRSSGG
+                     VVLDTMLLTENEAGKQAEHVSCV"
+ORIGIN      
+        1 cagagtcgga ctcatgggca agacggattg gagggagggg aagagtgaga gagcggacaa
+       61 gacgggagag agtgcaggct gatcacaggc tgtgaacaag agaaagcgag ttagagagag
+      121 gcagaggagc caaaacatct gaaagtttta aacctgtgaa cgcggttggt gatgcgaagc
+      181 aagactgggg gttcctccaa catgtggaag caaaacaaat tccacatcat ggactgcttc
+      241 agacagagac agatttaggt tttaccgttg ggggagggca ttctgtcgtg ttcttatttg
+      301 gataggatgg aaatataaaa aaggtagggg actattataa agatattaaa ctaaggtgtg
+      361 caaagattga gatgcttcga cgttaagctg cactgttctg tgtttacgca agttgagatg
+      421 tagcggcttg gaaaaaatac tctagtggaa acatcatgaa ggaagttaaa tgtattcctt
+      481 caggagcaga cccgtttgtt cttttaaatg gacgcagtgg atgacaagag tatcaactgc
+      541 ctgggaaagt gaggacccct gagaatctcc ttgcggaagt actaaccgtg ttgggattat
+      601 tgccagcagt ggagtttgta gtgtggacct gttttttttt tttgttcctt ccaagcagtg
+      661 gattctctac agattttgag ttactgttgt ttgtacagtg cacaaggcat gaagcatcct
+      721 gtgcattgac cctgagcttt cctgagcctg tgggacgcag tgaccatgct gaccgagtgt
+      781 ccaacaccag aaagatcaga tccccgaccc acattaaggc cagctgtaac ctctgcagca
+      841 ccatgtctca agcagttgtg gcaccactcg aggctaacaa ctcacagcca ggagcagtac
+      901 ctgaggctca gctgaaatgg gctgctctgc tcattgttat ggtcatcatc cccactattg
+      961 gaggaaacat cctggtcatt cttgcagtgt cccttgaaag aaagctgcag aacgccacca
+     1021 actactttct gatgtcgctt gctgtggctg atctgttggt gggactccta gtaatgccca
+     1081 ttgccctcgt cactgttctc tacaactcag gctggcctct tccggagccc ctctgcccaa
+     1141 tttggctgtt cctcgatgtg ctgttttcta ctgcatccat tatgcaccta tgcgccattt
+     1201 cattggatcg ctacattgcc ataaagaagc caatccaaca cagccagtac aaatccagag
+     1261 ccaaagcgat ggtgaagatt gcactggtgt ggcttatatc catttgtatc gcaatcccta
+     1321 ttccaattaa ggggcttaag aactaccatc ttcccaacaa catcaccttc aacagcaacc
+     1381 acacatgcat gctgaaaaca gacaccttcc gggagtttat catgtttggc tccttagcgg
+     1441 cattcttcat ccctctgacc atcatgatgg tcatctacct acttactgtc caggtgttgc
+     1501 ggaaaaaggt ttatttgctc aggtcaaagg tgactcagcg ctttagctac ccgacagtct
+     1561 ccacagtttt tcaaagagaa ccggcagcga ctccacctca aactgatcaa cttaacatgc
+     1621 tggacagcac acttccaagg atgcaagaaa aaacatatgt agacacaaca aactctccta
+     1681 cagaagatga aatgtccttt cggagaatgt caacaatggg caagaagtca atgcagactc
+     1741 ttagcaacga gcagcgggcc tcaaaggtgt taggcatcgt cttcctcttg tttgtagtaa
+     1801 tgtggtgccc tttcttcatt actaatatca cctctgtgct atgcacaagc tgtgatgttc
+     1861 atgtaatcgc ccgcctgatg gagatttttg tttgggtggg ttatgtgtca tcaggcatca
+     1921 acccgttggt ctacacccta ttcaaccaaa ctttcaggca agcgttcacg cgttacatca
+     1981 cctgcaatta cgaaacctct gctagtcatg ggccaggaag gcacccaagg gcatcaaatg
+     2041 cagatcggac ccttacacgg atttcattca gatcttccat ggcagaaaac tctaaactgt
+     2101 tcatgaagcg gggaatgaag aatggcattg gagcagttgg ctaccaaagt ccactaaggt
+     2161 gccggcaagc acctgtacgg tcatctggtg gtgttgtgtt agatacaatg cttctgactg
+     2221 aaaatgaagc tggtaagcag gcggaacatg ttagctgtgt atagagatac cagacaattg
+     2281 aatcaaatta aaaaggtagc acttgaaatg gatcaaaatc atggtgcaaa ctttttaatc
+     2341 tctttaaaga taaatgctat tctcacaaca aatattcaaa atacataatt ctgaatcggc
+     2401 tattgctctc aaatttgact accaaatatt ttaacgccag tgcttacttt acactacaca
+     2461 acaacaaaat gtaacctgtt gctctctggt ttgtttacat cagtaattct tttttttttt
+     2521 ttttttttta acaaaaagca aaataaggca atattttcaa ttatgatcat tttagaaaca
+     2581 caaatgtcaa ccataaggca aacaattata tgtgaatata taataatatt tcccactggg
+     2641 tctttaagac aggccgtatt aataatgtga agtcagttaa aagtgtacca gaagagagtt
+     2701 tgagttttca aacgttataa aaccttgaga tgacctgtaa caggttgact aaaaaaa
+//
+
+LOCUS       XM_032525432            2729 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor 2B
+            (htr2b), transcript variant X1, mRNA.
+ACCESSION   XM_032525432
+VERSION     XM_032525432.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045741.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2729
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="9"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2729
+                     /gene="htr2b"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 11 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116695297"
+     CDS             815..2236
+                     /gene="htr2b"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /protein_id="XP_032381323.1"
+                     /db_xref="GeneID:116695297"
+                     /translation="MSQAVVAPLEANNSQPGAVPEAQLKWAALLIVMVIIPTIGGNIL
+                     VILAVSLERKLQNATNYFLMSLAVADLLVGLLVMPIALVTVLYNSGWPLPEPLCPIWL
+                     FLDVLFSTASIMHLCAISLDRYIAIKKPIQHSQYKSRAKAMVKIALVWLISICIAIPI
+                     PIKGLKNYHLPNNITFNSNHTCMLKTDTFREFIMFGSLAAFFIPLTIMMVIYLLTVQV
+                     LRKKVYLLRSKVTQRFSYPTVSTVFQREPAATPPQTDQLNMLDSTLPRMQEKTYVDTT
+                     NSPTEDEMSFRRMSTMGKKSMQTLSNEQRASKVLGIVFLLFVVMWCPFFITNITSVLC
+                     TSCDVHVIARLMEIFVWVGYVSSGINPLVYTLFNQTFRQAFTRYITCNYETSASHGPG
+                     RHPRASNADRTLTRISFRSSMAENSKLFMKRGMKNGIGAVGYQSPLRCRQAPVRSSGG
+                     VVLDTMLLTENEAGKQAEHVSCV"
+ORIGIN      
+        1 cagagtcgga ctcatgggca agacggattg gagggagggg aagagtgaga gagcggacaa
+       61 gacgggagag agtgcaggct gatcacaggc tgtgaacaag agaaagcgag ttagagagag
+      121 gcagaggagc caaaacatct gaaagtttta aacctgtgaa cgcggttggt gatgcgaagc
+      181 aagactgggg gttcctccaa catgtggaag caaaacaaat tccacatcat ggactgcttc
+      241 agacagagac agatttaggt tttaccgttg ggggagggca ttctgtcgtg ttcttatttg
+      301 gataggatgg aaatataaaa aaggtagggg actattataa agatattaaa ctaaggtgtg
+      361 caaagattga gatgcttcga cgttaagctg cactgttctg tgtttacgca agttgagatg
+      421 tagcggcttg gaaaaaatac tctagtggaa acatcatgaa ggaagttaaa tgtattcctt
+      481 caggagcagt ggatgacaag agtatcaact gcctgggaaa gtgaggaccc ctgagaatct
+      541 ccttgcggaa gtactaaccg tgttgggatt attgccagca gtggagtttg tagtgtggac
+      601 ctgttttttt tttttgttcc ttccaagcag tggattctct acagattttg agttactgtt
+      661 gtttgtacag tgcacaaggc atgaagcatc ctgtgcattg accctgagct ttcctgagcc
+      721 tgtgggacgc agtgaccatg ctgaccgagt gtccaacacc agaaagatca gatccccgac
+      781 ccacattaag gccagctgta acctctgcag caccatgtct caagcagttg tggcaccact
+      841 cgaggctaac aactcacagc caggagcagt acctgaggct cagctgaaat gggctgctct
+      901 gctcattgtt atggtcatca tccccactat tggaggaaac atcctggtca ttcttgcagt
+      961 gtcccttgaa agaaagctgc agaacgccac caactacttt ctgatgtcgc ttgctgtggc
+     1021 tgatctgttg gtgggactcc tagtaatgcc cattgccctc gtcactgttc tctacaactc
+     1081 aggctggcct cttccggagc ccctctgccc aatttggctg ttcctcgatg tgctgttttc
+     1141 tactgcatcc attatgcacc tatgcgccat ttcattggat cgctacattg ccataaagaa
+     1201 gccaatccaa cacagccagt acaaatccag agccaaagcg atggtgaaga ttgcactggt
+     1261 gtggcttata tccatttgta tcgcaatccc tattccaatt aaggggctta agaactacca
+     1321 tcttcccaac aacatcacct tcaacagcaa ccacacatgc atgctgaaaa cagacacctt
+     1381 ccgggagttt atcatgtttg gctccttagc ggcattcttc atccctctga ccatcatgat
+     1441 ggtcatctac ctacttactg tccaggtgtt gcggaaaaag gtttatttgc tcaggtcaaa
+     1501 ggtgactcag cgctttagct acccgacagt ctccacagtt tttcaaagag aaccggcagc
+     1561 gactccacct caaactgatc aacttaacat gctggacagc acacttccaa ggatgcaaga
+     1621 aaaaacatat gtagacacaa caaactctcc tacagaagat gaaatgtcct ttcggagaat
+     1681 gtcaacaatg ggcaagaagt caatgcagac tcttagcaac gagcagcggg cctcaaaggt
+     1741 gttaggcatc gtcttcctct tgtttgtagt aatgtggtgc cctttcttca ttactaatat
+     1801 cacctctgtg ctatgcacaa gctgtgatgt tcatgtaatc gcccgcctga tggagatttt
+     1861 tgtttgggtg ggttatgtgt catcaggcat caacccgttg gtctacaccc tattcaacca
+     1921 aactttcagg caagcgttca cgcgttacat cacctgcaat tacgaaacct ctgctagtca
+     1981 tgggccagga aggcacccaa gggcatcaaa tgcagatcgg acccttacac ggatttcatt
+     2041 cagatcttcc atggcagaaa actctaaact gttcatgaag cggggaatga agaatggcat
+     2101 tggagcagtt ggctaccaaa gtccactaag gtgccggcaa gcacctgtac ggtcatctgg
+     2161 tggtgttgtg ttagatacaa tgcttctgac tgaaaatgaa gctggtaagc aggcggaaca
+     2221 tgttagctgt gtatagagat accagacaat tgaatcaaat taaaaaggta gcacttgaaa
+     2281 tggatcaaaa tcatggtgca aactttttaa tctctttaaa gataaatgct attctcacaa
+     2341 caaatattca aaatacataa ttctgaatcg gctattgctc tcaaatttga ctaccaaata
+     2401 ttttaacgcc agtgcttact ttacactaca caacaacaaa atgtaacctg ttgctctctg
+     2461 gtttgtttac atcagtaatt cttttttttt tttttttttt taacaaaaag caaaataagg
+     2521 caatattttc aattatgatc attttagaaa cacaaatgtc aaccataagg caaacaatta
+     2581 tatgtgaata tataataata tttcccactg ggtctttaag acaggccgta ttaataatgt
+     2641 gaagtcagtt aaaagtgtac cagaagagag tttgagtttt caaacgttat aaaaccttga
+     2701 gatgacctgt aacaggttga ctaaaaaaa
+//
+
+LOCUS       XM_032521541            1915 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            1-like (LOC116692922), mRNA.
+ACCESSION   XM_032521541
+VERSION     XM_032521541.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045739.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            ab initio :: 1% of CDS bases
+            ##RefSeq-Attributes-END##
+FEATURES             Location/Qualifiers
+     source          1..1915
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="7"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..1915
+                     /gene="LOC116692922"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 96% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:116692922"
+     CDS             1..1200
+                     /gene="LOC116692922"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 1-like"
+                     /protein_id="XP_032377432.1"
+                     /db_xref="GeneID:116692922"
+                     /translation="MQKGEIMDVHTFLNETAVHVTPMKTMFFIFNCTVLSLALVLGLP
+                     GNLWVCWVVFRTKSMQTFNNALLVSLAASDLLKCSVDIPLLLFSFLRYRKDSQVSVSV
+                     CTLQQFTYALCSCVQLLTLVSISVERFQAIAFPFQTERRKARVSLWILSIWACGLILA
+                     ITSLTLSKKALFYMLCRPHLGDHGDERLQYSDPFGPYVLVPVWVLCLTVIVIHYVRIF
+                     NVVRQHRKKVFSREVQLRPAVSGQVCGCPSVNASAPRTALPGSFSPSPPGRTVLLVAE
+                     ASAPCAGAPGRTPEIVGVVCLLTPGARERGKKQMEGKLAQRFGYISIAFTLFWAPMVV
+                     ILLTNVISWNNTDKLLMELETSAMVLTCVHAAVDPLIYTLVTRQFRSELSKILSSIPR
+                     CPLKRSA"
+ORIGIN      
+        1 atgcagaaag gtgaaatcat ggacgttcac actttcttga acgaaacagc cgtgcatgtg
+       61 actcccatga aaaccatgtt tttcatattt aactgcacgg tcttatccct agcattagta
+      121 ttgggtttgc ccgggaactt gtgggtttgt tgggttgttt ttaggaccaa gagcatgcag
+      181 accttcaata acgcgctgct ggtcagcttg gccgccagtg acctcttgaa gtgctctgtg
+      241 gacataccgc tgctgctctt ctcttttctg cggtacagga aggacagcca ggtgtcggtg
+      301 tctgtgtgta ccctgcagca gttcacctat gccctgtgca gctgtgtcca gctgctcacg
+      361 cttgtcagca tcagcgtgga gcgcttccaa gccatcgcgt tccctttcca aaccgagagg
+      421 aggaaagcga gggtcagtct ctggatcctg tccatctggg catgcggcct gattttggct
+      481 ataacctctc tgactctttc caaaaaggcg cttttttaca tgctctgccg tccgcacctc
+      541 ggggatcatg gcgacgagcg tctacaatat tcggatccat ttggacccta cgtgctggtc
+      601 ccggtgtggg tattgtgttt gactgtgatc gttatccact acgtgcgaat attcaacgtt
+      661 gttagacagc accgaaagaa agtgttcagt cgggaagtcc agctgaggcc ggcggtctcg
+      721 ggacaggtct gtggctgtcc gagtgtcaat gcttcagcac cacggacagc tctgccgggc
+      781 tccttcagcc cgtcaccccc cggccggacg gtgctcctgg tggccgaggc cagtgctccc
+      841 tgtgcgggcg ccccggggag aactccggag attgtcgggg tggtgtgtct tctgacccct
+      901 ggggccaggg agcgggggaa gaaacagatg gaaggaaagc tggcccagcg ttttgggtac
+      961 atatccattg cgttcacgct tttctgggcg cctatggtgg ttattttgct aacgaacgtc
+     1021 atctcgtgga ataacactga caaattgctg atggagctgg agacatcagc tatggtgctg
+     1081 acctgtgtgc atgctgcagt ggatcccctc atctatacgt tagtcactag acagtttcgc
+     1141 tctgaactca gcaagatcct ctcgtccatc ccaaggtgtc ccctaaaacg gagtgcctga
+     1201 aggttcaaca ctttatgaac agttggatca catgtactgt acttttggga attgagacac
+     1261 acacacacac acacacacac acacacacac acacacacac acacacacac acacacacac
+     1321 acacacacac acacacacac acacacacac acacacacac acacatttaa aagtgagtga
+     1381 aaaagagacc acagatttag tatttgtggc agatatagat gttttatcag gcgtttcaca
+     1441 gtcgggacac aagacaaggt cataaataat atccaacacc tgacaagata cgcacagcag
+     1501 tagtctcaac aacgacaggt ggcataggag ggcaaagcaa agagtgagag agaaactgac
+     1561 tgagcccaga aaaaaagaca attggggggg gtacataaca gagaaagaga gagacaaaca
+     1621 caatcacaga caactgtttc tgttgtttgt aaataaaaat gcaatccttt gacacttgag
+     1681 tggagaaatg cttacataat gaattaagct gtgtcatttg aaagtgcagc tgacgcaacc
+     1741 caacctgtct tgaaacaggg aagcagtaaa taattcacat ttaatcactg tcctagcaac
+     1801 aaaaaataca ggaaacctca cttctgctat tacccatgtc atacccttgt tgtagttttc
+     1861 aatagattct aaatgtcgga ctttttgctg tgaatatgaa gtcaatgtct tcaac
+//
+
+LOCUS       XM_032520854            2433 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor 6
+            (htr6), mRNA.
+ACCESSION   XM_032520854
+VERSION     XM_032520854.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045739.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2433
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="7"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2433
+                     /gene="htr6"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 5 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116692505"
+     CDS             464..1870
+                     /gene="htr6"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 6"
+                     /protein_id="XP_032376745.1"
+                     /db_xref="GeneID:116692505"
+                     /translation="MADSHLSGSVGSYNSSSPTTSAWNITGSGPWLLAFMLTVIILMT
+                     VCGNMLLIAVVFAHRSLRCTSNCFLVSLFLSDLMVAVVVMPPAMLNVLCGAWVLWPAF
+                     CPIWLCFDVMCCSASILNLCVISLDRYLFIISPLRYKQRMTPPRALLLVGAAWGLAAL
+                     ASFLPIKMKWHSLGHWSGHSSVPGISSSNISSYSDTLYPASYFQLSPSGGLSFQCRLQ
+                     VTLPFALVASVLTFFLPSSAICFTYCRILLAARRQAMRVAALSHPPHPHPSLGEPSRP
+                     PSARVAAGQAQQDRDDYSHQEPPVSQNVPPSVNSERCLAHRQGRRALKASLTLGVLLG
+                     LFFSAWLPFFITNMAQAVCECVPMALFDAITWLGYCNSTMNPIIYPLFMRDFKRALGK
+                     LLPCCSSQSPRRPSPALSLSLRNSGDPNIPSSPPSPLPSDPTQPPATATDAVNLLDAE
+                     HAGIDLPLLLPNQVDTLD"
+ORIGIN      
+        1 taatcctgag aattattcca agctccctcc ttctccagta gttcttttca tcagcacagc
+       61 tctcgtatgc tgagttgaga tatctctcta tgtgccctcc tccactgact gtcatcattg
+      121 tgacatgctg cttcgaaacc ctctgtcagc tatcaaattg ctcattctgg ctctcagctg
+      181 tggatgaggc agggacatgc tggccaggat ggagagatga gtgtatgtgg ttttgatcac
+      241 tattctggtg ccagtggcac ttggatgtat tcctgccaaa tggaggtgga gatatttacc
+      301 catggagaac agtaaacctt gacagcgaca gggttggatg gcttctcaac acaagacctc
+      361 tttttatgca acaatgtccc taaagcgaga tctttggctg caaaggagaa acatctagtg
+      421 gtgcctgaag gggaaccttc attggcggtt ttcaaccagc cccatggctg actctcactt
+      481 gtctggctcc gtaggaagct acaacagcag ctcccccacc accagtgctt ggaacatcac
+      541 tggcagcggc ccgtggttgt tggcctttat gctgactgtc atcatcctca tgacggtctg
+      601 tggcaacatg ttgcttatcg ctgtggtgtt tgcccatcgc tctttgcgtt gcacctcaaa
+      661 ctgcttcctt gtgtctcttt tcctgtctga cctaatggtg gccgtggtgg tcatgccccc
+      721 agccatgctc aatgttctgt gtggggcctg ggtgctgtgg cctgcctttt gcccaatttg
+      781 gctctgcttt gacgtcatgt gctgcagcgc gtccattctc aacctgtgtg tgatcagcct
+      841 ggaccgctac cttttcatca tctcaccact gcgctacaag cagcggatga ctccacctcg
+      901 ggcattgctc ctggtaggag ctgcttgggg gttggcagct ttggcttcct ttcttcccat
+      961 taagatgaaa tggcacagct taggccattg gagtggacac tcatctgttc ctgggatcag
+     1021 cagtagcaac atcagctctt actctgacac actgtaccca gcatcctact ttcagctgtc
+     1081 accatcagga ggcctttcct tccagtgccg tctgcaggtc accctgccct ttgccctggt
+     1141 ggcatctgta cttacattct ttttgccctc gagcgccatt tgcttcactt actgtcggat
+     1201 ccttctggca gcgcggaggc aggcgatgag ggtcgcagca ctgagccacc caccacaccc
+     1261 ccatccctct ctaggggaac cttccaggcc tccatcagcc agggttgcag cagggcaagc
+     1321 tcagcaggat agagatgact acagtcatca ggaacctcct gtgtcacaaa atgtaccgcc
+     1381 gtcagtgaac agtgagcgtt gtctggctca caggcagggt cggagggcac taaaggccag
+     1441 tctgacccta ggagtcctcc tgggactctt cttcagcgct tggctgccct ttttcatcac
+     1501 caatatggct caggcagtgt gtgagtgcgt ccccatggcg ctcttcgacg ccatcacctg
+     1561 gctgggctac tgcaacagca ccatgaaccc catcatctac ccgctgttca tgagagactt
+     1621 caagcgggct ctggggaagc tcttgccctg ctgttcctcg cagtctccga gaagaccctc
+     1681 accagcgctt tccctctctc tccgcaactc gggagaccct aacattccca gcagcccccc
+     1741 ctctccgctg ccttctgatc ccactcagcc ccctgccact gccactgatg cggtcaacct
+     1801 gctggatgcc gagcacgctg gcatcgattt gcctctgctt ctgcccaatc aggtcgacac
+     1861 cctggattga atagcaatta tggaaatgct aatatggtat gtcagggttt atgttaggaa
+     1921 aaggattcaa gacaagcatt gaaacttaaa acgatttctg atttactcac tcgcctaaga
+     1981 ggggaaaaaa caaaaatcaa atttaaattt tttttttatt cacagaaaaa tgtctatgga
+     2041 cataaagttc cacccttgct ctatctggaa ttatgtcttt acaattatga aatatggatg
+     2101 aagaaacaga ctatttccgt tatcagtgcc agtacacaat gtaactagac cctgaaactc
+     2161 tatgctctat gcttcacatt ggtatggaag gaatagagaa aagaaaggcc ttgaagaaga
+     2221 tgcattcact gaattatcct cggccttatg gaaattaaat actgtgaaat atccatagca
+     2281 accaggccaa tggattaaaa ttagaaggag gtgagagaaa cacacctatt ttgtagcatc
+     2341 catcttatcc ctgcgaaaca caagtcatat ttacaggtat ttgatctcag aacgagttta
+     2401 gaaaacaatt taggacacta tttacagttg gta
+//
+
+LOCUS       XM_032516905            1902 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            1A-alpha (LOC116690140), mRNA.
+ACCESSION   XM_032516905
+VERSION     XM_032516905.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045737.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1902
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="5"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..1902
+                     /gene="LOC116690140"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 30 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:116690140"
+     CDS             243..1526
+                     /gene="LOC116690140"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 1A-alpha"
+                     /protein_id="XP_032372796.1"
+                     /db_xref="GeneID:116690140"
+                     /translation="MDFITTSYNNSNATSGYPDGVEVVADWDAGENGTGSGSLPDVKL
+                     SYQIITSLFLGSLILASIFGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLP
+                     MAALYQVLNKWTLGQEICDIFISLDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRT
+                     PRRAAILISVTWLIGFSISIPPMLGWRSAEDRANPDACIISQDPGYTIYSTFGAFYIP
+                     LILMLVLYGRIFKAARFRIRKTVKKTEKAKVSEKCLTVSPAIFHKKSNGEAEGKGWKR
+                     SDESKHSSPCVNGAVKHGEEGESLEIIEVISNSKTHLPLPNTPQSSSQGFENMNEKTS
+                     GAKRKIALARERKTVKTLGIIMGTFIFCWLPFFIVALVLPFCAESCYMPDWLGAVINW
+                     LGYSNSLLNPIIYAYFNKDFQSAFKKIIRCKFHRP"
+ORIGIN      
+        1 agggagcgca cccgtctgtt aacactcact ggctataaca cacacacaca cacacacaca
+       61 cacccctcac acacgtctgc gtcatgcgtc ctgagagcga cggcacgaac gcggtaactc
+      121 cgatggaccc cggtaaaacg cacagcggca gcagtctgag ggactgactg tgtcctgctt
+      181 atcttttcag ttgcgtgtcc cccactgttc tgggaaagtc gcgctctgag tgtggtcgca
+      241 ttatggattt tataacaaca agctacaaca acagcaacgc gaccagcggt taccctgatg
+      301 gggtggaggt ggttgccgac tgggacgcgg gcgagaatgg cacgggctct gggtctcttc
+      361 cagatgtgaa gctgagttac cagatcatca cctctctgtt tttggggtcc cttatcctcg
+      421 cctccatatt tggcaatgcg tgcgtcgtgg cagccatcgc cctggagaga tctctccaga
+      481 atgtggctaa ctatctgatt ggatccctgg ccgtgacaga ccttatggta tcggtactgg
+      541 ttctgccaat ggcggccctc tatcaggttt tgaacaagtg gacactgggg caggagatct
+      601 gtgacatatt catttcactg gatgtactgt gttgcacatc atccatcctg catctgtgcg
+      661 ccattgccct ggacaggtac tgggccataa cagacccaat tgactatgta aataaacgga
+      721 caccaaggcg cgctgcaatc ttgataagcg tgacttggct aattggtttc tccatctcta
+      781 ttccgcctat gttaggctgg agaagcgcgg aagacagggc gaaccccgat gcctgcatca
+      841 tcagccagga cccggggtac accatctact ccacatttgg ggctttttat atccctctca
+      901 tccttatgtt ggtcctgtac gggcgaatat tcaaggctgc gcgttttcgg attcggaaaa
+      961 cagtgaagaa aaccgagaaa gcaaaagtgt cagaaaagtg cttgactgtg tctccggcca
+     1021 tcttccataa aaaaagcaac ggggaggccg aaggcaaagg ctggaagcgc agcgacgagt
+     1081 ccaaacacag ctctccgtgc gtaaacggcg cggtgaagca cggagaggag ggtgagtcac
+     1141 ttgagatcat tgaagttatc agcaactcga agacgcacct gccgttgccc aacacccccc
+     1201 agtcctcctc gcagggcttt gaaaacatga atgaaaagac ctcgggggcg aagagaaaga
+     1261 tcgcgctggc cagggagcgt aaaacggtga aaacactggg gatcatcatg ggaactttca
+     1321 tcttctgctg gctgcccttt ttcatcgtcg cccttgtgct gcctttctgt gcagagagct
+     1381 gctacatgcc tgactggctg ggcgcagtca taaactggct gggctactcc aactctctcc
+     1441 tcaaccccat catatatgcc tacttcaaca aagacttcca aagtgctttc aagaagatca
+     1501 taagatgcaa attccacaga ccgtaaccac acatagtgac acattggtct atttaaatgt
+     1561 ggagtaaact aactgacagc agaaagtgtt tattgactgt atgggtagaa gaatacagac
+     1621 tttcattcag ggacttttcg gtgtgttcaa ggaccatgta gaaagaaaac gctggccgat
+     1681 gaaatgaagc aggaaatgtc gctcttaatg tacaagctca tgtttattcc gtgttgtagc
+     1741 tacatcatgt atcccatatg cgacggcagc cattgttgta ttaccatgca acacgtgtca
+     1801 tgtgctgatg atatgctcac atttttatca tgagacacgc ggggtttccg tcctacgtca
+     1861 tgagctttgt agcactgaaa caataaaagc aatcaaagtt ta
+//
+
+LOCUS       XM_032516788            4338 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            7-like (LOC116690047), mRNA.
+ACCESSION   XM_032516788
+VERSION     XM_032516788.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045737.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4338
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="5"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..4338
+                     /gene="LOC116690047"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 32 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 31 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116690047"
+     CDS             340..1545
+                     /gene="LOC116690047"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 7-like"
+                     /protein_id="XP_032372679.1"
+                     /db_xref="GeneID:116690047"
+                     /translation="MFNTSGIELTFTKKEDISEVINGTLQLMYNVLVTISPTTMWNET
+                     CGEQLQDFGHPEKIIIGVMLAIITAVTVMGNTLVVIAVCVVKKLRQPSNYLLVSLAVA
+                     DLSVAIVVMPFVIVTDLTGGKWLFGEVFCNIFIGMDVMCCTASIMTLCVISVDRYLGI
+                     TRPLTYPARQNGQLMAKMILGVWLVSASITLPPFCGWAKNVHTAGVCLISQDFGYTIY
+                     STAVAFYIPMLVMLVMYYKIFRAARKSGAKHRFTDLPRRERIETVTNEALRMQGLKPP
+                     GVVEECASLSRLLNRERRNISIFKREQKAATTLGVIVGVFTVCWLPFFILSTARPFIC
+                     GVECSCVPIWLERTLLWLGYANSLMNPFIYAFFNRDLRSTYRDLLRCRYRNINRRLSA
+                     VGVHEALKV"
+ORIGIN      
+        1 caaacagtcc atatttgtcc ggttagtgaa caactactcc ggcatgttta gattctataa
+       61 cttttttttt caaatgtcac acttttggag taggagttat tttccccccg aagggatgga
+      121 gcgcgcacct ataacactta gacggatcat tcttaaacag agagcagtca agaagcctgt
+      181 gtgagttgta ggcagtcgcg atgtggtgca gctgcaacag tcgcgatcta aaaccgctgg
+      241 acaggagtcg agagcaggtt acacatatcc aaatatgcgc gtaattggag tgcactttcg
+      301 aggtgtcgct tgcacccctt ccgagaaaac gttgtcgtga tgttcaatac ttcgggaatt
+      361 gagctcactt ttaccaagaa agaggatatt tccgaagtta tcaatggcac tctgcagctc
+      421 atgtacaacg tcctggtcac catcagtccc acaaccatgt ggaacgagac atgcggggag
+      481 cagctgcagg atttcgggca cccggagaag atcattattg gggtgatgtt ggcgatcatc
+      541 acggccgtaa ccgtcatggg aaacacgctg gtggtgatcg cggtgtgcgt ggtgaagaaa
+      601 ctaaggcaac cttcaaacta ccttctggtc tctctcgcag tggcggacct gtcagtggcc
+      661 atagttgtaa tgccgtttgt aatagtgaca gacctcaccg ggggcaagtg gctttttgga
+      721 gaggtgttct gcaacatctt catcggcatg gatgtaatgt gctgcactgc ctccatcatg
+      781 accctgtgcg tgatcagcgt tgatagatat ctggggatca cgcggcccct cacctaccct
+      841 gcccggcaga acggtcagct aatggcaaag atgatcctgg gagtgtggct ggtgtcagca
+      901 tccattaccc tgccgccttt ctgcggctgg gccaaaaacg tccacacagc cggcgtgtgc
+      961 ctcattagcc aagactttgg ctacaccatc tattccactg ctgtagcctt ctacatccct
+     1021 atgctggtca tgctggtcat gtactacaag atcttcaggg cagctcgcaa gagtggcgcc
+     1081 aagcaccgtt ttactgacct tccgcgccgc gagcgcatcg aaacagtgac taatgaggcg
+     1141 ctgcgaatgc agggcctaaa gccgcctggt gtggtggagg aatgcgcgtc cttatcgcgc
+     1201 ctgctgaacc gtgagcgcag aaacatctcc atcttcaagc gggagcagaa agcagcgaca
+     1261 acactggggg tgatcgtggg ggtcttcact gtgtgctggc tgccattctt catcctgtcc
+     1321 actgccaggc cctttatctg tggagtggag tgcagctgtg tgcccatctg gttggagcgc
+     1381 acgctgctct ggttaggcta tgccaactcc ctaatgaacc ccttcatcta tgccttcttc
+     1441 aaccgagacc tgcgctccac ttatcgtgac cttctccgct gtcgttatcg caacataaac
+     1501 cgccgactgt ctgctgtggg cgtgcatgag gctctcaagg tttaaagcag gataattcag
+     1561 cagcatatat tgaccctcaa agagtatgta tgtgcctgta cttgtacact tggtgcttaa
+     1621 agggcaacat gaacacagca ggcctgtaga taaaacaaag actgacagaa tggaagtcac
+     1681 tgttggtggc tctctggccc ctctgcaaag aagagagaaa acacaatcac ttcattgtat
+     1741 gtgtgactca gtcattctat tttgggaaaa aaaatcctag agggtacttg atgagctatt
+     1801 caagtcgaca ctgcttttgt tcatatgtca caattccgtc ctggtggaag gataatgtag
+     1861 tgacaaagga aatgacatgt caacacaatc aatcatctta aggtattcag ggggttaaga
+     1921 cagcaaacag atttctgtat gataacaaaa ttgatgtttg ataaggcaaa acatgtgttt
+     1981 tgtggcacac tgtcttctaa acatcttcat ctaaacatgc atttgagcac atcccagatt
+     2041 aattctaaac agagagtcgg agacacttgg tgtattgtga tttgtgctag gatgaaatat
+     2101 tattgaaatc actttttctt cagtcatact tttcaattgg gtcctctcac taaatttaac
+     2161 aagagcactt taaatgtttc acaaatgttt acaatgtgat gatgccaagg gaatggaagt
+     2221 gggtggaaaa tggtgttaaa atgcgacatg aagggaacat tttcccattc atgaaatctc
+     2281 agtgtttgtt gctctaaaaa taaactgaaa gtagttggtt taatgtctgc atggaacaca
+     2341 tttgtcttac atgccactgt atacatacat acgtacatat actagttaca gaattcagat
+     2401 tctgaacatg cataacagtt tgacagaagt gtatccatat ttcacctaac actttatcca
+     2461 gaggcggagt ggggcactaa aatcaaccgg gaaaatgttg acggcaccgg cccaccacca
+     2521 gaccaacccc ccatttatca ataacaaaaa caaaatcttt tttttaaaac ccaaattatg
+     2581 ctatgtttct ttgtgtggaa ttcctccaat tgttctatcg ccagccaagt ctacgcattt
+     2641 gggaaggact taacggaatt atgaaacctg gccactagat agcactagac aaatgtacat
+     2701 tgacaataaa gtgtaggttt aaagctgtta tgggttttcc attaataaac agatgctgaa
+     2761 atataacatc atatacttgt agtcgtgact tctcctagca ttgtctgatc tgcatcatcg
+     2821 ctgggctgag tcggactgaa ttctgacact gtgtggaaaa aacggaacag gcgtacatac
+     2881 aaattctttt tacaatttat tacagcataa tgataattgc gttttcccct gatagtatag
+     2941 gctgcgtgga aggggggtat acaatgcacc ccacctccaa acaaaatata ggcctaccca
+     3001 ctaattagtc atttccatac caacatgcta cttcagaatg ataaagttat atctgcgttc
+     3061 atatcagttt tagcattgca aatagctaaa tgacaaatgg aggacattac agatagcaat
+     3121 actgccactc attcagataa aaatggtcat aaatgttttg tttatgaaca aggtatttca
+     3181 aacccaagac ttaaaatgca gctcatttga gatgctgtta cttgccataa ggagataatc
+     3241 gttaccaaat agtcagtcaa ttcacctgga gcacttgttg aagcctgatt tcggaataaa
+     3301 tccgtaattt tttagcactt tgatgcatcc tccagcatct gcttcatctt cattctggtc
+     3361 ttttcggctc ctccgttctc ctttctcttc ttgccattct tgggtaatat taaacagcaa
+     3421 gaaaacacga taatccgact gtcaataaat acattcccca ttcccatgag gctttgctcc
+     3481 attctacgtt aatttaagaa aaacaaacga attgaagtgt ttttattttt atttgtgacc
+     3541 atgaaatttc tgcaacacct gaataagaag aattgaatta agataggcta gactgatggg
+     3601 agaggctaca caaacatcag taaattgacg gaagagatga atgtgcaggg taaccatgat
+     3661 atagagagtg agcaagtggt ataaatattg gttgaacttg agcttcttgt ttcttcaagt
+     3721 agtgtggatc ctgcaatttt aaggacccat gggcggctgc tgatgtctca cggttaattg
+     3781 aaatagtcta taagcaggac agcgggaatt ctttggctgg ctggccatcc gggaaaagtc
+     3841 ctgattgtca ctccgcccct gactttacca cacacttgaa ttccaaatga actctatgtg
+     3901 tatgtgtcag aaactatgat actgtggacg ttttttcact cttactaaac ctgttgaact
+     3961 ctgcagtttc actttaagaa ttgatgtgat gttcttgaga ctcttctgcc ccacaggact
+     4021 tcaacatcta cattttgaat caggatgata cttctctcat ttgaactcga tggtgacctg
+     4081 catgacccag cgtcaaatgt catcagtcga gtagtgtgtg ctttttctac ctccattttt
+     4141 gagatttctg tacttttact ccaaacagat gtaccgctct cttgcatcat gttgttttat
+     4201 attgtgtaag atcaatctat ttacaactgc tctgtgattg gtcttgttga cagctttgtc
+     4261 attaccttca ggaacaagct ggggaggtgg caaagcattt catcactttg taaataaaga
+     4321 aacacttggt taaaatgt
+//
+
+LOCUS       XM_032512768            4338 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor 2A
+            (htr2a), mRNA.
+ACCESSION   XM_032512768
+VERSION     XM_032512768.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045736.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4338
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="4"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..4338
+                     /gene="htr2a"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 20 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:116687410"
+     CDS             1619..3130
+                     /gene="htr2a"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /protein_id="XP_032368659.1"
+                     /db_xref="GeneID:116687410"
+                     /translation="MNPHGGANVSELISKAVRAAVGTIATVESNTWSLRGLEDRTALI
+                     NNATNSGCPSWNWSYRNDGGVYGEGGRIYGPPCPRRDTAVEKNWAALLILLVIAITVL
+                     GNILVILAVSLEKKLQNATNYFLMSLAVADMLLGILVMPVSMVTIVYDYGWPLPSELC
+                     PIWIYLDVLFSTASIMHLCAISLDRYIGIRNPIHHSRFNSHTKARIKITAVWTISVGI
+                     SMPIPVLGLRDHSKVFKDGSCLLTDNNFVLVGSFVAFFVPLTIMVVTYFLTINALQNE
+                     ATLCLDQLVPRPKWSTTFTLSFLPQTSLSSEKLYRRSISREAGGRGSGGGLGGGRGSV
+                     SGSLLGRRTMQSISNEQKASKVLGVVFFLFVVMWCPFFVTNVLVVVCDPAVCDAGLMG
+                     GLLNIFVWVGYMSSAVNPLVYTLFNKTYRAAFLRYVRCRYHPERKRLQLILVNTIPPM
+                     AYSSTQLPLGDIAKLQNGVAHSSGDGKECSLPGREMEKSRLDKSCGDKDESCV"
+ORIGIN      
+        1 aaagcagaaa atcattcagc gtctgatgat cactgaagac ggctcaacaa ctcactctgg
+       61 aaaacagaaa tccccacgaa acctcttctg tgagctgatg ccccccctac ccccctccct
+      121 cttctatttg ctttcattag aaaacggacg tggaaatatc caaggaggtt ttcaagcaac
+      181 tgaagattta tggagcctga ataggaggat ttgcagagtg actgacattt tccattgagg
+      241 actaaaatgc aaaagggagg aggaggagga ggaattaaag gaatacttaa aatctctgga
+      301 gggctgacac tgttttatgg ggaagaggaa tacttctact atgcgtcagg actttattgc
+      361 taagccgaga gtgtgtgaag agaacagaga gggaggaaag ttagcaaggt gtctttgggc
+      421 aacacacgca cgtcaaatat cattatgttc atcatcaatc tccccacggc acgcactgcc
+      481 acgggcgcag ggatgagttg aagacgacaa ggacactgga ggatttccac acaaatacac
+      541 acacacacac acacacacac acacacacag acttacatgt gcaggtatgt agtcagcggc
+      601 aacccacctt catacaggtg tacttctaat atgccagata gaagtgttga taagtgcacg
+      661 atcgactctc tgcatcatga aaactaaaga ctgaaaagtc aggatcggtg tgtttgaaaa
+      721 gaatcagatg aaatacacat ttgtaagatc tgagacttca gatgtttttc atcaagagtg
+      781 tagctttgac ttggaagagc ccagaattca aggaggagaa agctgcaaca gcttcaaacg
+      841 gattctataa atcggaagat gagagaagat gtgagttgaa aatatgtgag tcgcaatcac
+      901 tccaacattg gaatattttg agcaactggt tcttttttct gttctggatg agtggcataa
+      961 agtcacgata ttgaccaagt gcttattttt agatgttttt tatccatatg acattgtcct
+     1021 gttgagattt aaaagctgct gttgttgttc tgctgaattc aacagtctgc tactttggtt
+     1081 ttcccgcatt gtgacgatga tttgctgatc ctgcgacaga agattcaagg cttcggacga
+     1141 gtcaaggctt cagacaattc aaggcttcag acaattcaag gcttcggacg tttcgaggct
+     1201 tcagacgatt tgaggcttcg gacgatttga ggctttggac gatttgaggc tttggacgat
+     1261 ttgaggcttc ggacgattta aggcttcgga caatttgagg cttcagacaa ttcgagaggc
+     1321 ttcagatgat tcgaggcttt ggacaattca aggctttgaa cgatttgaag cttcggacga
+     1381 ttcaaggctt tggacgattc aaggcttcgt agtttcgcca tgagatgacg gcgtaaaaac
+     1441 catcggcacg ttgaaactca actcactact ccagtgataa atggtgttaa tgggaaatgg
+     1501 ggagagacta gacgatgaca agactttccc cttctttctc cgctctgaca aatcttccca
+     1561 ggcagcatcc ctgaggcgtt tccgcctcgg gctgtgacgg cgttactgag acggcgtcat
+     1621 gaacccgcat ggcggcgcca acgtgtcaga gttaatctct aaagccgtca gagctgccgt
+     1681 cggcaccatc gccactgtgg agtccaacac gtggtctctg cgtggattgg aggatcgcac
+     1741 ggcgctgatc aacaatgcga caaactcggg gtgtccctca tggaactggt cttaccggaa
+     1801 cgacggagga gtttacggcg aaggcggcag gatttacggg cctccgtgtc ctcggcgaga
+     1861 cacggccgtg gagaagaact gggcggcgct gctgatttta cttgtcatcg ccatcacggt
+     1921 tttgggcaac atcctggtga tcctggccgt ctctctggag aagaagctgc agaacgccac
+     1981 caactacttc ttgatgtccc tggcagttgc tgacatgctc ctgggcatcc tggttatgcc
+     2041 cgtctccatg gtgaccattg tctacgatta tgggtggccg cttccctctg aactctgtcc
+     2101 aatctggatc tacctggacg tcctgttctc cacggcgtcc atcatgcacc tgtgcgccat
+     2161 ctctctggat cggtacattg gcatacgcaa cccgatccac cacagccgct tcaactccca
+     2221 caccaaggcc cgcatcaaga tcacggcggt gtggaccatc tcagtcggga tctccatgcc
+     2281 gatccctgtg ctgggactcc gagaccactc caaggttttc aaagatggca gctgcctgct
+     2341 gaccgacaac aactttgtgc tggttggctc ctttgtggcg ttctttgtgc ccctcaccat
+     2401 catggtcgtc acatacttcc tgaccatcaa cgcactgcag aacgaagcca cgctctgcct
+     2461 ggaccaactc gtcccgcggc ccaagtggag cacgacgttc actctgagct tcttgccgca
+     2521 aacctcgctg tcatctgaga aactctacag acgctcgata agccgtgagg ccggtggcag
+     2581 aggaagcggt ggcgggctgg gaggcggccg cgggagcgtc tctggctcgc tgttgggacg
+     2641 ccgcaccatg cagtctatca gcaacgagca gaaggcatcc aaggttctcg gtgtagtctt
+     2701 ctttctcttc gtggtcatgt ggtgcccgtt ttttgtcacc aacgtgctcg tggtggtgtg
+     2761 cgacccggcg gtgtgcgacg ctggactcat ggggggcctg ctcaacattt tcgtgtgggt
+     2821 tggatatatg tcatccgcag tcaatccgct cgtctacacg ctgtttaaca aaacgtaccg
+     2881 agcagcgttt ctgcgctacg ttcgctgccg gtaccatccg gagaggaagc gtctccagct
+     2941 gattctggtg aacaccatcc ctccgatggc gtacagctca acgcagctgc ccctgggcga
+     3001 cattgccaag ttacaaaacg gagtggcgca ctccagcggt gatgggaagg aatgctcttt
+     3061 acctggacgg gaaatggaga agtctagact ggacaaaagt tgcggtgaca aggacgagag
+     3121 ctgtgtatga gtataagcct gtgaaaactc acggaaagaa aacctttagc cccctggtca
+     3181 tgtcagacta acgtacagcg aaggggtcaa ggtttaaagt gccaaagaca aagtgcctcc
+     3241 cagaccggat ttaaaaaaca acaagactcc aaatcaagtc aataaaatga agaatacatt
+     3301 tccgtttatc ctgagaattt tcagaagatt ccttagcttt tgattcacgt cctatcaaca
+     3361 gggtctatat cacatgatcc aagtttgtga gttccttagt actacaaaaa catcttttga
+     3421 taacccaaaa taatgtaaat caatgtgtgt tccatggatt acaatccctt aaagggtaac
+     3481 tttggtattt gtcaacctgg atccctgaac ccatgttttt gtgtctttga aattggtccg
+     3541 gtatcaagca atttgacaat ttgcgtccac taaacgttct gttgttgccg ctgacagact
+     3601 cagttcatta ttctaagcgt gtgtcaacat tatggaaagg acccctacag agatagcatc
+     3661 actttggcca cattgggaca ccccttgctt ctatcgtccg tagccggaca cttcagacct
+     3721 gacgcacttt ccggtctttt tgcggtactt tacatttcca atcatcacca aaacagaatt
+     3781 catctatacc catctaacaa tctacgtatg agttttcctg tatgcacatg gacatttaga
+     3841 tgtctgatta gtatatgaaa gtgactttga tgagggaaag acgtgagaac gctcgggaaa
+     3901 cgatttttcc tcctaaaaag tttctatttt tactgaattg gacattaagg agcataattc
+     3961 agagtgttga agcatggtat tttattgtga aggatggaag taagatctgg tagttttgac
+     4021 agtattgatg ggactttctt taactgtcta tggacttaat acccggcaag gcccggtgtc
+     4081 tacagcaagg agatagcggt gtccagttac ggccaagggc agcgcacggc taatgtggct
+     4141 aaaagaaact tcagatacag gattagggga ccactaacgt ctatataaaa gagacttcag
+     4201 atacagtatt aggggaccac taaggtctat ataaaagaga cttcagatac agtattaggg
+     4261 gaccactaag gtctatataa aagcatccaa agagcaatat tttatgggac ctttaattca
+     4321 cccaattaca tgtggaga
+//
+
+LOCUS       XM_032504258            2885 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor 5A
+            (htr5a), mRNA.
+ACCESSION   XM_032504258
+VERSION     XM_032504258.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045754.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2885
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="22"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2885
+                     /gene="htr5a"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 11 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116672419"
+     CDS             323..1363
+                     /gene="htr5a"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 5A"
+                     /protein_id="XP_032360149.1"
+                     /db_xref="GeneID:116672419"
+                     /translation="MTYPNTSILTANFSEALDGHDSGGNIYRPFSVFSVLTLTLLAML
+                     VVATFVWNLLVLVTILRVRTFHRVPHNLVASMAISDVMVAALVMPLSLVHELNGRLWK
+                     LGRVLCQVWISFDVLCCTASIWNVTAIALDRYWSITRHLEYTLKTRKKISNVMIALTW
+                     LLSSIISLSPLFGWGETYTEGMKCQVSQEPSYTIFSTFGAFYLPLCVVLFVYWKIYKA
+                     AKFRIGSRKTNTITPMAEVKDETHQPQMVFTVRHATVTFQTDGDTWREQKEKKAALMV
+                     GILIGVFVLCWIPFFITELIVPLCSCDIPPIWKSIFLWLGYSNSFFNPLIYTAFNKNY
+                     NNALRNLFSRQR"
+ORIGIN      
+        1 cacacacaca ccgagaaaac gcagtgttta tcatgtgaat tggactcagt tcccccttcc
+       61 gaacactgtg tggtttattc cagcggctct gtatctttag cgcgaggtgc gtttctgttg
+      121 tcatcagcac actgagccag gcggttcaat cactccgcgg acacggcagc gaagtgaatt
+      181 tcgatggaga ggtcatacag agctgagata ttctcgtgca ggactgtttt atgccgaact
+      241 gttaatggga atgcatcgac ttactgcaga aattgtctgt gaatcgcctt agcccttggc
+      301 tgcagggctg tgagcagcta ccatgacgta tcccaacacc agcattctga cagccaactt
+      361 cagtgaagcg ttggatggtc atgactccgg aggaaacatc tacaggcctt tttctgtttt
+      421 cagcgtgctc actcttacat tactggcaat gctggtggtg gccaccttcg tgtggaactt
+      481 gctggtgcta gtgaccatcc tgagggtaag gacatttcac cgggtgcccc ataaccttgt
+      541 ggcgtccatg gccatctccg acgtgatggt ggctgccctg gtcatgccgc tcagccttgt
+      601 ccatgagctg aacggcaggc tgtggaaact gggccgtgtg ctgtgccagg tgtggatctc
+      661 ctttgacgtt ctctgctgca cggccagcat ttggaacgtg acagccatcg cgctagaccg
+      721 ctactggtcc atcaccaggc atctagagta cacgctcaag acgcgcaaaa aaatctcaaa
+      781 tgtgatgatc gcactcacgt ggctgctgtc atccatcatt tccctgtcgc cactttttgg
+      841 ctggggggag acctacacag aggggatgaa gtgccaggtg agccaggagc catcctacac
+      901 gatcttctcc acctttggag cattttatct gccgctttgt gtggtgctgt ttgtttattg
+      961 gaagatctac aaggctgcca agtttcggat tggctcccgc aagaccaaca caataacgcc
+     1021 catggctgag gtaaaggacg aaacacatca gccgcagatg gtatttactg tccgccacgc
+     1081 caccgtgacc ttccagacag acggggacac atggcgcgag cagaaggaga aaaaggcagc
+     1141 gctgatggta ggcattttga tcggcgtgtt tgtactttgt tggatcccct tcttcatcac
+     1201 cgagctgatc gtcccgctgt gctcctgtga catcccgccc atctggaaga gcatctttct
+     1261 gtggctcgga tactccaact ccttctttaa tccactcata tacactgcct ttaataagaa
+     1321 ctacaacaat gccctgagga acctcttctc ccggcagcgc tgagccacgc agcactctca
+     1381 gtagacacac tacaccagca tgcactcgac tgtgttactc ctccagacag agaaggactt
+     1441 aactgtctat atccatcatt cagtcattgt tcaaatggat gataaccaga aactgtcttt
+     1501 ataaattagt tgttttgttt accatgcaga ggttacttct cagctggact gaggcaagtc
+     1561 actgagctac tgtatctaca ttggttgtgc cgtggcagta caagatacag tgctgtctac
+     1621 atattgaatt ccttctccca tttcaggctt gttggggagg aagccatgtt aactcccttg
+     1681 taaacagttt cggtatcagt atgtgaagtt gctgggaata attgaatacc attctggaag
+     1741 aaattcttca aaatattctt ttaaaaatgt cacacaaata acctcataaa taataaatca
+     1801 acaacaaact ggattatttt ctaatttaca caacaaaatc atcatcattg aaggggatgt
+     1861 tttaaataaa aatattgatt tgataatata aaacaaggtt tatctgacct gaaatcccac
+     1921 ctgtaaacat atctccacct taggtagaca tcccctggat agataactat ccggcttcac
+     1981 gtgcaattta ttcatacaca cttcaagata aatgtacaat ctctcctctg acgccaacta
+     2041 tctataaact gcaccacttc tttttgcaca tacacctaca cacttccatg ccttttgtaa
+     2101 agcagtgaaa tggcagacac tatttctatc gtctttgcat agatgcattg ttgaggaact
+     2161 gcatccatga attattatat ctcactccag gtaaataaag tagatacaga agatgtatgg
+     2221 acttgtgtaa gctattcaaa gcattatcgc aacaatagat tctgtagcct gagaggtcat
+     2281 taaatgggaa aataaaaact agtattgctt cattgtagag agaaggtaaa atgctgagac
+     2341 gatgatgttt tgaagtataa ttttctacta atggaaacag cgcacaacat ctatgcttag
+     2401 ttggtgtaat gatttttttg atatgactcc catttcctgc acacattgct tgttctactg
+     2461 taagtaaacc cttatttgag tgtgtattat actgttatgt aaggaatcaa gcatgagaaa
+     2521 ttgatcctca gcattagttg tgctgtaagt gtgagctcct gttggagagc aacatcaagt
+     2581 ataacaaatc taatacgatg ttacattttt taacaagtgc atctaatgtt tagcctggca
+     2641 agtcagaccc atatcaagat attgggtctg ggaactcacc attggtaggg ctcaatccaa
+     2701 ggggcgggat aaacggttgt ctttcaaatt ccctctgcat gcaagaggaa agcgctacaa
+     2761 ccaaccagag caacgctagt taatagattc aacttttacc atatccggtc ggcaaaactc
+     2821 tgaatacatc ttactttttt acgaatgatt tcaataccgt tctttgttct tttctcaaag
+     2881 aaaag
+//
+
+LOCUS       XM_032503205            1801 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            3A-like (LOC116671744), mRNA.
+ACCESSION   XM_032503205
+VERSION     XM_032503205.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045753.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1801
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="21"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..1801
+                     /gene="LOC116671744"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116671744"
+     CDS             175..1491
+                     /gene="LOC116671744"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 3A-like"
+                     /protein_id="XP_032359096.1"
+                     /db_xref="GeneID:116671744"
+                     /translation="MMYVAFLLLIVFTDGASSKKVCSYQDVVDYLNLTTDNGVFKLTR
+                     PVLDYKHSTMVELDIILYAILAVIEKTQTFVPFIWVTMMWNNERISWDPAQFCGITHI
+                     TIPREMLWKPDLFIYEMIQKDDSPHNPYMYVSYDGTITSEDDMKVVSTCKMDVHKFPF
+                     DTQRCNITIGSAIHYVNELRLLPSSNSSRATQFSREVMKSQGEWEFLQLSIASYNFTF
+                     DDEQWENLIYTFTMKRRPLLHVINFLLPILFFLSLDLASYFIADHRGEKLGFKVTVLL
+                     AISVLLLILNDILPSMSNKTPLIATYCIVIFALMLLSLLETILVTYLMEKDSVSQEES
+                     RLRDKREKVKIDNCNAASDGEKQHELLPVTEEVNNSIQPRESHVLLLILEELKELQKT
+                     LNLHLRCRQKVGKSGHWAAKINRAFFIFYVTIVSLFLTLIFIEWNT"
+ORIGIN      
+        1 attaaccact tacgtcaatt cctgctgtgc actgtgggag gggtgtcagg cagaggccgt
+       61 tcatttagcc cagccctcgt cagctcaagt caaaggacag cagcgcagag tggttctggt
+      121 ctcacagcag gaacaaacac atacgcacac acacacaaac tccccgctgc agatatgatg
+      181 tatgttgctt ttctcctcct gattgtcttc acagacggtg cgtcctctaa gaaagtgtgc
+      241 agttaccagg acgtggtgga ctacctgaac ctgaccacag ataacggtgt atttaaactg
+      301 acccggcccg ttctggatta caaacactcc actatggtgg aactggacat catcctgtat
+      361 gccatcctgg ctgtgattga gaaaacacaa acttttgttc ctttcatctg ggtaacaatg
+      421 atgtggaaca atgaacgcat ctcatgggac ccggctcagt tttgtggaat cactcatatt
+      481 acaattccta gagaaatgct ctggaaacca gacctcttta tctatgagat gatacagaag
+      541 gatgactccc ctcacaatcc atacatgtat gtgtcctacg acgggacaat cacttctgaa
+      601 gatgacatga aggtggtcag cacctgtaag atggacgtcc acaagttccc ctttgacaca
+      661 cagagatgta acatcactat tggatctgca atacattatg ttaatgagct ccgtctcctt
+      721 ccttcctcca actcgtctcg agccacccag ttttccagag aggtgatgaa aagtcaggga
+      781 gaatgggaat tcctccaact gtccattgcc agctacaatt tcacctttga cgatgaacaa
+      841 tgggaaaacc tcatatacac tttcactatg aagaggaggc ccctcctcca tgtcatcaac
+      901 ttcctgctgc ctatcctgtt cttcctgagt ctggacctcg cctcctactt tatcgcagac
+      961 catcgaggag agaagttggg cttcaaagtc accgtgctgc tggccatctc tgtcctgctg
+     1021 ctcatcctga atgacatcct accctccatg tccaacaaga ctccactcat agcgacctac
+     1081 tgcattgtga tttttgctct gatgctgctc agcttgctgg agacaatctt ggttacgtat
+     1141 cttatggaga aagactctgt atcccaggaa gagagcaggc taagggacaa acgtgagaaa
+     1201 gtgaaaatcg ataactgtaa tgcagcgtct gacggtgaga aacagcatga actgctgccg
+     1261 gtgactgaag aggtgaacaa cagcattcag ccacgagagt cccatgtgtt actgttgatc
+     1321 ctggaggagc tcaaggaact acagaaaact ctgaatctgc acctccgctg cagacagaaa
+     1381 gtaggaaaat ccggccactg ggccgcaaaa attaacagag ctttcttcat tttctacgtc
+     1441 accatcgtgt cactttttct aaccctcatc tttattgaat ggaacactta gaaaagtaga
+     1501 ataatgcctt gtaatacttt ggttcttgca ttgtaccttt atgtcaacac gtgatggaaa
+     1561 aggtttactg tagaatcttc aagtgttgtg ttgtgctata aaagcacaca ttctgtattt
+     1621 gtagtagctt ggcgtggtct gttttatgaa gtaaagatga gataactctt ccacagttga
+     1681 aggttaagtt acacaatcct gtaaatgttt actgctgaaa tgtatactgt cgataaaagc
+     1741 tttgttcgtt tttgaaattt aggaaagatt actgcaaaag acagtttaat gcagtgactt
+     1801 t
+//
+
+LOCUS       XM_032503198            1508 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            3A-like (LOC116671740), mRNA.
+ACCESSION   XM_032503198
+VERSION     XM_032503198.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045753.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1508
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="21"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..1508
+                     /gene="LOC116671740"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:116671740"
+     CDS             24..1418
+                     /gene="LOC116671740"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 3A-like"
+                     /protein_id="XP_032359089.1"
+                     /db_xref="GeneID:116671740"
+                     /translation="MLTGFLFLLFLTDGVYPERNCSYQDVLNHLNLTKNNELYSMSRP
+                     VKNYKQPTQVSLELLLYAILDVVEKDQKFIPYVWTVMRWQNEYISWDPNEFCGIDNVS
+                     LPTEVLWKPDLTIEEMTEKDKAPPSPYLTINNKGDVEVQNDQVLVSTCRMQIYNFPFD
+                     IQSCNLSFKSIIHTAKDIRLQPSDNSSEATEWSREVMRTQYEWLFIDMIVTANNVSDI
+                     NNQDVVVYTITMKRRSVLYIVNFLVPIMFFLCLDLASFLISDSGGEKLSFKVTVLLAV
+                     TVLQLILNEILPSSSNKIPLIALYCIGIFALMLLSLLETIVVMYLMEKDSACQDNGAD
+                     NDQNLSEDCNKKGKVSLHNHDGEMKKWTHCACVCDVSAEEPPSELLSMAREGNSSQLT
+                     DESNALEKVSDELREVEKTLLLILNNKNEDGKPGYWTRMVKTINKFFFIFYVTVASLF
+                     LLVIFLMWNLAQDE"
+ORIGIN      
+        1 agactcactg gattgcagtc aagatgctta ccggtttcct ctttctgctc ttcctcacag
+       61 atggggtgta cccagagcgt aactgcagtt atcaggatgt tttaaaccac ctgaacctga
+      121 ccaaaaacaa tgagctgtac tccatgtccc ggcccgtaaa aaactacaaa caacccacac
+      181 aggtgtccct ggaactcctg ctctacgcca ttctggatgt ggttgagaaa gaccagaaat
+      241 tcattcctta cgtttggact gtcatgaggt ggcagaatga atacatttcc tgggatccaa
+      301 atgagttttg tggaattgat aatgtctccc ttcctacaga agttttgtgg aagccagatc
+      361 tcactattga agaaatgaca gagaaagaca aagcccctcc cagtccttat ctcaccatca
+      421 ataataaagg tgatgttgaa gtccagaacg accaggtgct ggtcagcacc tgcaggatgc
+      481 aaatttacaa tttccccttt gacattcaga gctgcaacct ctccttcaag tctatcatac
+      541 acacagcaaa ggacattcgg ctccagccaa gtgacaactc ttcggaggcc acagagtggt
+      601 ctcgtgaggt gatgcggacc cagtacgaat ggctgttcat cgacatgata gttacagcta
+      661 acaatgtcag cgatatcaac aaccaagacg tcgtcgttta cactatcact atgaagaggc
+      721 ggtctgtgct ctacattgtc aacttcctgg tacccatcat gttcttctta tgtctggacc
+      781 tggcctcctt cctgatctcg gacagcgggg gggagaagct cagctttaag gtcaccgtgc
+      841 tgcttgctgt cactgtgtta caactcattc tgaatgaaat tctgccttcc tcgtcaaaca
+      901 agattcctct tatagcactc tactgcattg ggatttttgc tctaatgctg ctgagcctct
+      961 tggagacaat tgtggtgatg tatctaatgg agaaagactc tgcatgccaa gacaatggag
+     1021 cagacaatga ccaaaacttg agtgaggact gtaacaaaaa gggcaaagtc agcttgcaca
+     1081 accatgatgg agagatgaag aaatggactc actgtgcttg tgtttgtgat gtgtctgctg
+     1141 aggaacctcc atctgaactg ctgtcgatgg ctagagaggg caacagcagc caactgacgg
+     1201 atgagtccaa tgccttggag aaggtctcag atgagctaag ggaggtggag aaaacactgc
+     1261 tcctgatcct caacaacaag aatgaagacg ggaaacccgg ctactggacc agaatggtta
+     1321 aaaccatcaa caaatttttc ttcattttct atgtcacagt ggccagtctg tttttacttg
+     1381 ttatcttttt aatgtggaat cttgcacaag acgagtagtg gcaaagtgtg aaaacaggat
+     1441 taagacgata cttatctaat tcaaatactc tgcattagca tttgacatct ggttgtatta
+     1501 tacagttc
+//
+
+LOCUS       XM_032503195            2162 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            3A-like (LOC116671737), transcript variant X3, mRNA.
+ACCESSION   XM_032503195
+VERSION     XM_032503195.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045753.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2162
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="21"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2162
+                     /gene="LOC116671737"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116671737"
+     CDS             9..1292
+                     /gene="LOC116671737"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 3A-like isoform X3"
+                     /protein_id="XP_032359086.1"
+                     /db_xref="GeneID:116671737"
+                     /translation="MPHIVSCWHCPTCSVSLRLLYHHVRLLLGFCRTVGIVSTLMWNL
+                     LNEKDQQFVSYIWIDVTWMDDNLSWNPTQFCDIWDMYLPAEKVWKPDLTIEEMTEKDK
+                     AHPSPYVNIMWNGMVFRRDDMLVVSTCTMEVYRFPFDFQKCTLSFKSIIHSDRQIMLI
+                     PETESSRNTKLSKEMMRTQSEWLFIDMKIDEKTVDNFGVTQSMLVYTITMKRRSALYV
+                     INFLVPILLFLFLDLASFLISDSGGEKLGFKVTVLLAVTVMQLILNDILPSSSDKIPL
+                     IAVYCIGMFGLMMLSLMETILVMHLMEKDSKDQSLSKDCGDKQGKVSFQNCCREVKKL
+                     THFCHICDMSPGETPSGLLPVAKEGSSSHLAEKSHASDELSEAVKTLTLLLSNREEER
+                     KPDYWTRVSKTINKVFFIFYVITASVFLLCLFFNW"
+ORIGIN      
+        1 tttgctttat gccacatatt gtatcctgtt ggcattgtcc cacctgctca gtgtctttga
+       61 ggttgttgta ccatcatgtg aggcttttgt taggcttctg caggacagtt ggtattgtct
+      121 caacgttgat gtggaacctt ttgaatgaga aggaccagca atttgtttct tacatttgga
+      181 ttgatgtgac ttggatggat gacaatcttt cttggaatcc aactcaattc tgtgatatat
+      241 gggacatgta tcttcctgct gaaaaagtgt ggaagccaga tctaactatt gaagagatga
+      301 cagaaaagga caaggcccat ccgagtccat atgtcaacat tatgtggaat ggtatggtct
+      361 ttcgcaggga tgacatgttg gtggtcagca cctgcacgat ggaggtttac agatttccct
+      421 ttgactttca gaaatgtacc ctctctttca agtctatcat acactctgac aggcaaataa
+      481 tgcttatacc ggaaactgaa tcctcgagga acacaaagtt gtctaaggag atgatgcgga
+      541 cccagtccga gtggctgttt attgacatga aaatcgacga aaaaactgtt gacaattttg
+      601 gcgtgaccca aagcatgttg gtttacacta tcaccatgaa gaggcggtct gcgctttacg
+      661 tgattaactt cttggtaccc atcctgctat tcttatttct ggatttggcc tcattcctga
+      721 tctcggacag cgggggggag aagcttggct tcaaggtcac tgtgctgctt gctgtcactg
+      781 tgatgcagct tattctcaat gatattctgc cttcgtcgtc agacaagatt cctcttatag
+      841 cggtctactg cattgggatg tttggactga tgatgctaag ccttatggag acaattttgg
+      901 tgatgcattt aatggaaaaa gactctaaag accaaagcct aagtaaggac tgcggggaca
+      961 aacagggcaa agtcagcttc caaaactgtt gtagagaggt taagaaattg actcacttct
+     1021 gtcatatctg tgatatgtct cctggtgaaa cgccatctgg actgctgccg gtggccaaag
+     1081 agggtagcag cagccatctg gcggagaagt cccatgcttc agatgagcta agtgaggcag
+     1141 tgaaaactct gactctgctc cttagcaaca gggaggaaga gaggaagcct gactactgga
+     1201 ccagagtgtc taaaacaatc aacaaagttt tctttatttt ctatgtcata actgccagtg
+     1261 tgtttttact ctgtttgttt ttcaattggt aagataataa gtgctaataa ttcagataac
+     1321 caacaacaag ttatgctgca ggttaatttg ggcagaggtg aagctgctga aaaaaagtat
+     1381 ctgctccaac tttggtgtca caaaccacaa ccttcttctg catgaacaaa gctaatgatc
+     1441 aaaggtgtac ttcattgttc aggtagtatt taatttttca gtggtattgc ggctgccact
+     1501 tgcatgtttc acacacagtg gttcacatca aacacacatg ttgtcatgtt ctaatacact
+     1561 aatctgcatt caaggggtag atttatgttg ttgctatgta ataaaatgta cacttttagt
+     1621 tatgaagcat gcagcgcaaa atcatgtttt ccttatcttt atatgggcaa tttttataat
+     1681 ccaccccaaa acatattaaa gtgtgtacaa ttctaaatat gcaatcacag ctttgtttgg
+     1741 ttcctgcagg attcccatct aagctctttt caccaaaaaa ctgtacattc ctttaaacca
+     1801 atgcgctaac atgactaata caaacatccc aaaaataatg cagaaggtcc tttagtatgt
+     1861 aaagcatgct ttcttttgaa aatgtgcagt aatttgagta gtctttgact tggcttctcc
+     1921 agagccaaag aagtcaatac gacattttta aaaggctgcg tagtgacgtc gatgtttaaa
+     1981 actggtccag tgtttctttg acaatttgaa acacatctat aatattctgg agctaaatgt
+     2041 gttttacatg ggttcagtta tcgtatcagt tattattggg ctctttctgt ggtgttcttt
+     2101 cacagctgca tcactctgct ttatgtattc ataattaaac agtcctgata tgtgctttct
+     2161 ac
+//
+
+LOCUS       XM_032503194            2299 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            3A-like (LOC116671737), transcript variant X2, mRNA.
+ACCESSION   XM_032503194
+VERSION     XM_032503194.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045753.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2299
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="21"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2299
+                     /gene="LOC116671737"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 1 sample
+                     with support for all annotated introns"
+                     /db_xref="GeneID:116671737"
+     CDS             44..1429
+                     /gene="LOC116671737"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 3A-like isoform X2"
+                     /protein_id="XP_032359085.1"
+                     /db_xref="GeneID:116671737"
+                     /translation="MMLAAFIFLLHVTGGRTTSNYTEQPELPGDQQMFSFEESGSTSS
+                     YTEQPEVNGESSKGNCTYRDVLNHLNLKENENFMTLPGGVKSPTKVKLDLLLYAILDV
+                     NEKDQQFVSYIWIDVTWMDDNLSWNPTQFCDIWDMYLPAEKVWKPDLTIEEMDDMLVV
+                     STCTMEVYRFPFDFQKCTLSFKSIIHSDRQIMLIPETESSRNTKLSKEMMRTQSEWLF
+                     IDMKIDEKTVDNFGVTQSMLVYTITMKRRSALYVINFLVPILLFLFLDLASFLISDSG
+                     GEKLGFKVTVLLAVTVMQLILNDILPSSSDKIPLIAVYCIGMFGLMMLSLMETILVMH
+                     LMEKDSKDQSLSKDCGDKQGKVSFQNCCREVKKLTHFCHICDMSPGETPSGLLPVAKE
+                     GSSSHLAEKSHASDELSEAVKTLTLLLSNREEERKPDYWTRVSKTINKVFFIFYVITA
+                     SVFLLCLFFNW"
+ORIGIN      
+        1 cacagaggac cgtggtgctc attaactgtg cagacctctt acaatgatgc tggcagcttt
+       61 catctttctg ctccacgtca caggtggaag aacaacctcc aattacacag agcaaccaga
+      121 gcttcctggc gatcaacaga tgttcagctt tgaggaaagt ggaagtacct ccagttacac
+      181 agagcaacca gaagtaaatg gggagtcttc caagggtaac tgcacttatc gggatgtttt
+      241 aaatcacttg aacttaaaag aaaatgagaa cttcatgact ctgcctggtg gtgttaaatc
+      301 acccacaaaa gttaaactgg atttgctact ctatgcgatt ctagatgtga atgagaagga
+      361 ccagcaattt gtttcttaca tttggattga tgtgacttgg atggatgaca atctttcttg
+      421 gaatccaact caattctgtg atatatggga catgtatctt cctgctgaaa aagtgtggaa
+      481 gccagatcta actattgaag agatggatga catgttggtg gtcagcacct gcacgatgga
+      541 ggtttacaga tttccctttg actttcagaa atgtaccctc tctttcaagt ctatcataca
+      601 ctctgacagg caaataatgc ttataccgga aactgaatcc tcgaggaaca caaagttgtc
+      661 taaggagatg atgcggaccc agtccgagtg gctgtttatt gacatgaaaa tcgacgaaaa
+      721 aactgttgac aattttggcg tgacccaaag catgttggtt tacactatca ccatgaagag
+      781 gcggtctgcg ctttacgtga ttaacttctt ggtacccatc ctgctattct tatttctgga
+      841 tttggcctca ttcctgatct cggacagcgg gggggagaag cttggcttca aggtcactgt
+      901 gctgcttgct gtcactgtga tgcagcttat tctcaatgat attctgcctt cgtcgtcaga
+      961 caagattcct cttatagcgg tctactgcat tgggatgttt ggactgatga tgctaagcct
+     1021 tatggagaca attttggtga tgcatttaat ggaaaaagac tctaaagacc aaagcctaag
+     1081 taaggactgc ggggacaaac agggcaaagt cagcttccaa aactgttgta gagaggttaa
+     1141 gaaattgact cacttctgtc atatctgtga tatgtctcct ggtgaaacgc catctggact
+     1201 gctgccggtg gccaaagagg gtagcagcag ccatctggcg gagaagtccc atgcttcaga
+     1261 tgagctaagt gaggcagtga aaactctgac tctgctcctt agcaacaggg aggaagagag
+     1321 gaagcctgac tactggacca gagtgtctaa aacaatcaac aaagttttct ttattttcta
+     1381 tgtcataact gccagtgtgt ttttactctg tttgtttttc aattggtaag ataataagtg
+     1441 ctaataattc agataaccaa caacaagtta tgctgcaggt taatttgggc agaggtgaag
+     1501 ctgctgaaaa aaagtatctg ctccaacttt ggtgtcacaa accacaacct tcttctgcat
+     1561 gaacaaagct aatgatcaaa ggtgtacttc attgttcagg tagtatttaa tttttcagtg
+     1621 gtattgcggc tgccacttgc atgtttcaca cacagtggtt cacatcaaac acacatgttg
+     1681 tcatgttcta atacactaat ctgcattcaa ggggtagatt tatgttgttg ctatgtaata
+     1741 aaatgtacac ttttagttat gaagcatgca gcgcaaaatc atgttttcct tatctttata
+     1801 tgggcaattt ttataatcca ccccaaaaca tattaaagtg tgtacaattc taaatatgca
+     1861 atcacagctt tgtttggttc ctgcaggatt cccatctaag ctcttttcac caaaaaactg
+     1921 tacattcctt taaaccaatg cgctaacatg actaatacaa acatcccaaa aataatgcag
+     1981 aaggtccttt agtatgtaaa gcatgctttc ttttgaaaat gtgcagtaat ttgagtagtc
+     2041 tttgacttgg cttctccaga gccaaagaag tcaatacgac atttttaaaa ggctgcgtag
+     2101 tgacgtcgat gtttaaaact ggtccagtgt ttctttgaca atttgaaaca catctataat
+     2161 attctggagc taaatgtgtt ttacatgggt tcagttatcg tatcagttat tattgggctc
+     2221 tttctgtggt gttctttcac agctgcatca ctctgcttta tgtattcata attaaacagt
+     2281 cctgatatgt gctttctac
+//
+
+LOCUS       XM_032503193            2368 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            3A-like (LOC116671737), transcript variant X1, mRNA.
+ACCESSION   XM_032503193
+VERSION     XM_032503193.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045753.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2368
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="21"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2368
+                     /gene="LOC116671737"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:116671737"
+     CDS             44..1498
+                     /gene="LOC116671737"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 3A-like isoform X1"
+                     /protein_id="XP_032359084.1"
+                     /db_xref="GeneID:116671737"
+                     /translation="MMLAAFIFLLHVTGGRTTSNYTEQPELPGDQQMFSFEESGSTSS
+                     YTEQPEVNGESSKGNCTYRDVLNHLNLKENENFMTLPGGVKSPTKVKLDLLLYAILDV
+                     NEKDQQFVSYIWIDVTWMDDNLSWNPTQFCDIWDMYLPAEKVWKPDLTIEEMTEKDKA
+                     HPSPYVNIMWNGMVFRRDDMLVVSTCTMEVYRFPFDFQKCTLSFKSIIHSDRQIMLIP
+                     ETESSRNTKLSKEMMRTQSEWLFIDMKIDEKTVDNFGVTQSMLVYTITMKRRSALYVI
+                     NFLVPILLFLFLDLASFLISDSGGEKLGFKVTVLLAVTVMQLILNDILPSSSDKIPLI
+                     AVYCIGMFGLMMLSLMETILVMHLMEKDSKDQSLSKDCGDKQGKVSFQNCCREVKKLT
+                     HFCHICDMSPGETPSGLLPVAKEGSSSHLAEKSHASDELSEAVKTLTLLLSNREEERK
+                     PDYWTRVSKTINKVFFIFYVITASVFLLCLFFNW"
+ORIGIN      
+        1 cacagaggac cgtggtgctc attaactgtg cagacctctt acaatgatgc tggcagcttt
+       61 catctttctg ctccacgtca caggtggaag aacaacctcc aattacacag agcaaccaga
+      121 gcttcctggc gatcaacaga tgttcagctt tgaggaaagt ggaagtacct ccagttacac
+      181 agagcaacca gaagtaaatg gggagtcttc caagggtaac tgcacttatc gggatgtttt
+      241 aaatcacttg aacttaaaag aaaatgagaa cttcatgact ctgcctggtg gtgttaaatc
+      301 acccacaaaa gttaaactgg atttgctact ctatgcgatt ctagatgtga atgagaagga
+      361 ccagcaattt gtttcttaca tttggattga tgtgacttgg atggatgaca atctttcttg
+      421 gaatccaact caattctgtg atatatggga catgtatctt cctgctgaaa aagtgtggaa
+      481 gccagatcta actattgaag agatgacaga aaaggacaag gcccatccga gtccatatgt
+      541 caacattatg tggaatggta tggtctttcg cagggatgac atgttggtgg tcagcacctg
+      601 cacgatggag gtttacagat ttccctttga ctttcagaaa tgtaccctct ctttcaagtc
+      661 tatcatacac tctgacaggc aaataatgct tataccggaa actgaatcct cgaggaacac
+      721 aaagttgtct aaggagatga tgcggaccca gtccgagtgg ctgtttattg acatgaaaat
+      781 cgacgaaaaa actgttgaca attttggcgt gacccaaagc atgttggttt acactatcac
+      841 catgaagagg cggtctgcgc tttacgtgat taacttcttg gtacccatcc tgctattctt
+      901 atttctggat ttggcctcat tcctgatctc ggacagcggg ggggagaagc ttggcttcaa
+      961 ggtcactgtg ctgcttgctg tcactgtgat gcagcttatt ctcaatgata ttctgccttc
+     1021 gtcgtcagac aagattcctc ttatagcggt ctactgcatt gggatgtttg gactgatgat
+     1081 gctaagcctt atggagacaa ttttggtgat gcatttaatg gaaaaagact ctaaagacca
+     1141 aagcctaagt aaggactgcg gggacaaaca gggcaaagtc agcttccaaa actgttgtag
+     1201 agaggttaag aaattgactc acttctgtca tatctgtgat atgtctcctg gtgaaacgcc
+     1261 atctggactg ctgccggtgg ccaaagaggg tagcagcagc catctggcgg agaagtccca
+     1321 tgcttcagat gagctaagtg aggcagtgaa aactctgact ctgctcctta gcaacaggga
+     1381 ggaagagagg aagcctgact actggaccag agtgtctaaa acaatcaaca aagttttctt
+     1441 tattttctat gtcataactg ccagtgtgtt tttactctgt ttgtttttca attggtaaga
+     1501 taataagtgc taataattca gataaccaac aacaagttat gctgcaggtt aatttgggca
+     1561 gaggtgaagc tgctgaaaaa aagtatctgc tccaactttg gtgtcacaaa ccacaacctt
+     1621 cttctgcatg aacaaagcta atgatcaaag gtgtacttca ttgttcaggt agtatttaat
+     1681 ttttcagtgg tattgcggct gccacttgca tgtttcacac acagtggttc acatcaaaca
+     1741 cacatgttgt catgttctaa tacactaatc tgcattcaag gggtagattt atgttgttgc
+     1801 tatgtaataa aatgtacact tttagttatg aagcatgcag cgcaaaatca tgttttcctt
+     1861 atctttatat gggcaatttt tataatccac cccaaaacat attaaagtgt gtacaattct
+     1921 aaatatgcaa tcacagcttt gtttggttcc tgcaggattc ccatctaagc tcttttcacc
+     1981 aaaaaactgt acattccttt aaaccaatgc gctaacatga ctaatacaaa catcccaaaa
+     2041 ataatgcaga aggtccttta gtatgtaaag catgctttct tttgaaaatg tgcagtaatt
+     2101 tgagtagtct ttgacttggc ttctccagag ccaaagaagt caatacgaca tttttaaaag
+     2161 gctgcgtagt gacgtcgatg tttaaaactg gtccagtgtt tctttgacaa tttgaaacac
+     2221 atctataata ttctggagct aaatgtgttt tacatgggtt cagttatcgt atcagttatt
+     2281 attgggctct ttctgtggtg ttctttcaca gctgcatcac tctgctttat gtattcataa
+     2341 ttaaacagtc ctgatatgtg ctttctac
+//
+
+LOCUS       XM_032501089            3652 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor 1D
+            (LOC116670518), mRNA.
+ACCESSION   XM_032501089
+VERSION     XM_032501089.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045752.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3652
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="20"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..3652
+                     /gene="LOC116670518"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 37 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116670518"
+     CDS             1623..2780
+                     /gene="LOC116670518"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 1D"
+                     /protein_id="XP_032356980.1"
+                     /db_xref="GeneID:116670518"
+                     /translation="MELDNSSLDYLTSNFTEIPDTTTTPHWSKATLLGLQISLSALLA
+                     VVTLATVLSNAFVIATIFLTRKLHTPANFLIGSLAVTDLLVSILVMPISIVYTVSKTW
+                     SLGQIVCDIWLSSDITFCTASILHLCVIALDRYWAITDALEYSKRRTMRRAMIMVGVV
+                     WVISISISMPPLFWRQAKAHEELTECMVNTDQISYTLYSTFGAFYIPTVLLIILYGRI
+                     YVAARSRIFKTPSSSGKRFTTAQLIQTSAGSSLCSLNSASNQEAHLHSGNVGGVGGGG
+                     GGSPLFMNSVKVKLADSVLERKRLCAARERKATKTLGIILGAFIICWLPFFVGTLVMA
+                     ICKECWFDPMLFDIFTWLGYLNSLINPVIYTVFNDEFKQAFQKLIKFRRCF"
+ORIGIN      
+        1 ttccctgaca cgacagctga tagcaagaga gaagacattt aaagcaggat gtcgtgctgt
+       61 gattggatca taaatttcgt ggccaatttt ggttggttta ctgaaaagtg aacgcctcta
+      121 aacagctgaa tagttttagg aagaaatagt ggtgattgaa gttatttaca agtcttcctg
+      181 aaagaatttg cgctgagctc cattttccct tcacacattt tcccattaca aattttcaaa
+      241 aatgataatt attcctattt gcaaatgata tatttgcagc catgctgccg gtcccatcac
+      301 aacctcccag acagtcccag aaaccttccc ggagcggatc gcatcagcac cgggaagccg
+      361 tgggggtctt catcgttgct ggagacaact gagctgcgcc ttgatgcatc agatggattt
+      421 ccgccggcaa cacactttct acacttttca cacattctgt cgattgaact ctggaaaaag
+      481 acatgtttaa accagaatgt catacattcc cctctcaagt ttgtcgggac aactgaaatg
+      541 acttaggcta tgtttaactg tttatactgc cagacacgca ctaccttttt acatgagatg
+      601 taagctgtcc gctggtttcc tctgaatgta accagtctgt atttcgcctg tttgtggacg
+      661 tgcgtaaagg aagccgctgc tgggattcca taattgcttt gtgctcggat tttatcaaag
+      721 ggaaagagga gagaaattcg ccaaatgaag aaaatataag gatgaacatg ctgcagagga
+      781 agcttcacga caaaacctta gctcgatgga taacacaact gaaagaggag aagcttacac
+      841 acaagcatgt atccctggga atctgaaaaa aaactttgct gatcaccaca ttacatttca
+      901 gcaaacttct gtacaattgc caaaagctat gtatatggct attgaacaat tatacatagg
+      961 agaaatagtt tatctgcatt atgtaactgt aaagttctgg ctttccaata tcatcaaaga
+     1021 cacgaggcac agctaagttt cagtacaaac cacaatttag aaggcttcat gtggacttga
+     1081 caaccgataa gagagagata acaagcaaac attttgtatc tgtcatctta catgcagttc
+     1141 cacgcttagc tttattgaaa aggaggagcc cattaaagca attgatagat aggaaggttt
+     1201 ggtctgaagg tgttggtgcc ggctggctgc tggttggaga tgagataaga gtcttgggaa
+     1261 gagggaaaag gagtgcctgt ctgacaggag ctgaatacaa attaggagtc ttctctcctg
+     1321 cagctacacc agtgagacaa attaatattg gagagaagaa atggaaaaat taactgactt
+     1381 caattacagg agcattagtt gtggaaggaa ttagatgttt gctaaggggt aatatgaaat
+     1441 catattgcag tataagggat gttgcaatgt gaaatgagga taaaacactt ctgcattttc
+     1501 tacagcaaaa accaacagtg gcatgccctg tgtactacct tctctggtgc catgcctaaa
+     1561 ctgagatgat gaggctggtt taaaccttgg agacaaggag gtttaaaagt tgcagaggag
+     1621 agatggagct ggataatagt tcactggatt acttgaccag caacttcaca gagattcctg
+     1681 acactacaac aactccacac tggagcaagg ccacactact cggcctccag atctccctgt
+     1741 ctgcactgtt agctgtcgtc accctggcta ccgtgctctc aaacgccttt gtcatcgcca
+     1801 ccatcttttt gaccaggaag ctccacacac ctgccaactt cctgatcggc tcccttgccg
+     1861 tcacagatct gctggtgtct attttagtca tgccaatcag catcgtctac actgtgagca
+     1921 agacctggtc gctggggcag attgtctgtg acatctggct gtcgtccgat atcaccttct
+     1981 gcacggcctc catcttgcac ctgtgtgtga ttgcattgga ccgctactgg gccatcacag
+     2041 acgccctgga gtactcgaaa cgccgcacca tgcgtcgggc aatgatcatg gttggggtgg
+     2101 tgtgggtgat ctccatatcg atttccatgc ctccactttt ctggcgacaa gccaaagccc
+     2161 atgaggagct gacggagtgc atggtcaata cagatcagat ctcttacacc ctatactcca
+     2221 ccttcggcgc cttttacatc cccacagtgc tgctcatcat cctctatgga cggatctatg
+     2281 ttgccgcccg ctcccgtatt ttcaagacgc cgtcttcttc agggaaacgt ttcaccacag
+     2341 cacagctcat ccagacctct gcaggctcct ctctctgttc tcttaattct gcctcaaacc
+     2401 aggaagcaca cctacactct ggcaacgtgg gaggtgtggg aggaggaggg ggaggatcac
+     2461 ctctattcat gaatagcgtt aaagtgaagc tggcagacag tgtgctggag aggaaacgtc
+     2521 tgtgtgcggc tcgggagagg aaagcgacca agacactggg catcatcctg ggcgctttca
+     2581 ttatctgttg gctcccattt tttgtgggca cgctcgtcat ggccatatgt aaagagtgct
+     2641 ggtttgatcc aatgcttttt gatatattta cctggctggg atacctgaac tccctgatca
+     2701 atcccgttat ctacaccgta ttcaatgatg agttcaaaca ggcttttcaa aaactcatta
+     2761 aattcagaag atgcttttga gaaaaaaatg aattcattaa aatctcttgg aaaacatgga
+     2821 gtgagaaaga caaagagaaa acaagataat aatgataatg gaagtactgt acacttaaat
+     2881 cccatggtcc catcttgtaa acacatgcta attatgatat gtttttgatt tttacattca
+     2941 acagtgccgt gccatgctct ttagatacct acagaattca tagagactta tgcatgcatg
+     3001 ctaaaaaaag acaaaaagaa ttgtggaact catccataaa aagattaaga aagaggattt
+     3061 gaagtctttt tcatgtcact ggggcactgc tgttatttaa aaagaagaag aagcagagat
+     3121 taaaaacaag gattggtcta actgtataga aatatcaact cagagagact ggatttattc
+     3181 cagtggaaat gaaaagccat gaaatatatg ttgtctttta atctctgtgt cattctgtat
+     3241 actgcttctg cccatataat gtttctgctg tacataaagt acttagaaaa actgcagaac
+     3301 tctagcgatt cagtaaaacg gttgccatgt gtgcaatcat atttgaaagt ggtgtttcat
+     3361 tgtctgtgta tgtgtgtgtt tctgcatgag tgtggctaaa ggttacttta ctgtaatata
+     3421 tgtgagtttg aggaggggag gattgtcaag tgttctacgt ttatactgca catgctattc
+     3481 ttcagcgagc ctcgtcccgt tgttccagag aatttgacgt tttaactctg actcagaatt
+     3541 ttaagtaaca gccaatacca cagcaacaaa taaacccttg atgttgtaaa tgatgtgctc
+     3601 atgcaaaaaa gattaggtaa gagcaaatga tcagactccc gcctactgag gg
+//
+
+LOCUS       XM_032500387            2482 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            1B-like (LOC116670081), mRNA.
+ACCESSION   XM_032500387
+VERSION     XM_032500387.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045752.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2482
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="20"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2482
+                     /gene="LOC116670081"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 32 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:116670081"
+     CDS             413..1546
+                     /gene="LOC116670081"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 1B-like"
+                     /protein_id="XP_032356278.1"
+                     /db_xref="GeneID:116670081"
+                     /translation="MERCGQVELTQPVNTTNGSCLPDPSTVDVSAESLAYQISLAVIL
+                     SGITLATTLSNAFVVAIISQSKKLQTPANFLIASLAITDLLVSILVMPICVLYTVIHT
+                     WTLGQIVCDIWLSSDITCCTASILHLCVIALDRYWAITDAVEYSKKRTPGRAAGMVAT
+                     AWVIAISISLPPLFWRQVKAEELTSCSVNTDHIFYTIYSTFGAFYIPTLLLIVLYGRI
+                     YVEARKRILKQSPKKVGKRLTSAHLVTNSPGSVASTTSLQCGRHDTQSSDTGSSTSEN
+                     QVKVTLSDALLEKKRISAARERKATKTLGIILGAYIVCWLPFFIYTLVVATCETCFNP
+                     ELFDFFTWLGYLNSLINPIIYTMSNEDFKKAFHKLVRFKCCRS"
+ORIGIN      
+        1 ctgaggaaac agctctggag atcttctgcc ctacatgcgg attatctgtg acatcttccc
+       61 agatgttggg acatcaggaa gcactgctca tcatttacat ttacatacaa accttttctg
+      121 cctgttgtgt gggcttacaa cagttaagaa gttttctttt atggctaaaa aacggaaaag
+      181 tttgaacagt ggatatttgc tttaccaatg tgacatctgc acatacttga aataggctaa
+      241 cagaagcaaa tgaggaagaa aggaatcagt ttcatgttaa gacttaccac cattttgtca
+      301 tttatgtgac cggatggcac ggataaagag acgtccatca agagaaaggg caccttaaat
+      361 gacagacatc tcagagggtg acatcaaata tgagaaaaag tgactaaaag ttatggagcg
+      421 ctgcggtcaa gtcgagctaa ctcagccggt gaacaccaca aacggcagtt gtcttcctga
+      481 tccatccact gtggatgtca gcgcagagag tctcgcctat cagatcagtc tggcggtgat
+      541 tctttccggc ataacactcg ccaccacttt atccaatgcg tttgtcgtag cgataatctc
+      601 ccaatcgaag aaactgcaaa ctcctgcgaa ctttctgatc gcctctctgg ccatcaccga
+      661 cctgctggtg tccattctgg tgatgcccat ttgtgtcctc tacacggtta tccacacctg
+      721 gacgttgggg caaatcgtgt gcgacatctg gctctcctcg gacataacgt gttgcacggc
+      781 gtctatcctc cacctgtgcg taatcgcttt ggataggtac tgggccatca cggacgcggt
+      841 ggagtactcc aaaaagcgca ctccggggcg cgcggccggg atggtggcca cagcctgggt
+      901 catcgccatc tccatctccc tgcctcctct cttctggagg caggttaagg cggaggagct
+      961 gaccagctgc agcgtcaaca cggatcatat tttttacacc atctactcca cctttggggc
+     1021 tttctacatc cccacattgc tgctcattgt cctctacgga cggatatacg tcgaggctcg
+     1081 gaaacggatc ctgaagcagt cccccaagaa ggtggggaag agactcacct ctgcgcacct
+     1141 ggtcaccaac tccccgggat ccgtggcgtc cacaacatct ctgcagtgcg gaagacacga
+     1201 cacccagtcc agcgacaccg ggtcttcaac aagcgagaac caggtgaaag tgacgttgtc
+     1261 ggacgcgctt ttggagaaaa agcgcatttc agcagccaga gagagaaagg cgaccaagac
+     1321 tttggggata atcctcggcg cttatatcgt ttgctggctg ccgtttttca tttacacatt
+     1381 ggtggtggcc acgtgtgaga catgttttaa ccccgagtta tttgactttt tcacctggtt
+     1441 gggctatctg aactccctca tcaacccgat catatacaca atgtccaatg aggacttcaa
+     1501 gaaagctttc cataaacttg tgcgcttcaa gtgctgcagg tcgtgaacga atgtttcttc
+     1561 agtctcccat aagatttatt tatgtattta tttttggata tgaagttcta aaagtatatg
+     1621 acaatataga atagtaagaa tgccatgcaa cataatttgt ggaactcata gaaattatga
+     1681 gatgtacatg caaaagaaaa caacattcat ctttagccat ttggtccagt atatggtgat
+     1741 ttaaaatgcc agttttcata aaagcaaatc tggagtatga gtgtttgacg taacttaaag
+     1801 ctcaaaccac tgcaaggcaa aattattatt atacttaatt aaaaaggttt atttaattaa
+     1861 aaaacatgga tggattcctg tttgaatggt acagtgcatt aaagaaatgc acagcccgtt
+     1921 attcccatgc aaggactgac ctatcaatgt cagtaagtag aagagatcag agagatcatg
+     1981 gacagctgat ttgatgaaat gaatcctttt tgcattatgt gtaaaaattg gactcctaca
+     2041 tcgacaatat gtccatttat tctgaaaaac aaatactttt taatatgttc atggactgct
+     2101 tgctactacc atgtatggtt gtcctttgtt aatcacaatc atgcatttga aaaaagagaa
+     2161 aagattcata tcagtgtcaa acaaagaaac tgtagctgat gtttaaccag cagcgaaagc
+     2221 taatcataag ttcaattttg cggaacaaat acaaccttgt tttactgtgt gtgtgtgtgt
+     2281 gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt gtgtgtgtta cattaaatct gtacctacag
+     2341 tatgttatgt tcatgcatga aatggtttgc catctcatgg ctatagagag ctacaaaaca
+     2401 ttgtgaaaaa ttatgtgaaa taaaaggtat gttgttctag gatctgttca cattcagaga
+     2461 tgctgtgcaa taaaggcttt aa
+//
+
+LOCUS       XM_032531964            1076 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            4-like (LOC116699417), mRNA.
+ACCESSION   XM_032531964
+VERSION     XM_032531964.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045734.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1076
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="2"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..1076
+                     /gene="LOC116699417"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 57% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:116699417"
+     CDS             1..1059
+                     /gene="LOC116699417"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 4-like"
+                     /protein_id="XP_032387855.1"
+                     /db_xref="GeneID:116699417"
+                     /translation="MDNSSLGLLGDANISLPIELQSCTTLKNQASRISLYAFLSVGIV
+                     CTVVGNFLVVLSIAYFKQLQSPTNSFVMSLAVADCLVGLVVMPYSMIRTVEGCWYFGV
+                     LFCKLHSSLDVMLCTASIFHLSCIAFDRYYAVCNPLVYSLKMSRSRVALLIVVCWAVP
+                     MLISFGPIMLDLHVADVDILLPKDVCVFLVNRIYAVMASLVAFYLPMAVMLIAYWKIF
+                     KAAKRQARQISAMESQMAAGVGKDSSKKQRHRNTMKRERKAAKTLGIIMGVFLIFWMP
+                     FFTVNIVDPFIDYSTEVVVWDIFLWLGYINSSLNPFLYGFFNRSFRRAFLMFIGCRVC
+                     LHGSSPGMELSHTKERGK"
+ORIGIN      
+        1 atggataaca gcagtttggg attactcgga gatgctaaca tatctcttcc gattgaactt
+       61 caatcttgta ctacattgaa aaaccaggcc tcccgcattt cactgtatgc cttcctctct
+      121 gttggcattg tttgcacagt ggtgggcaac ttcctggtgg tcttgtccat cgcttacttc
+      181 aagcagttgc agtcacccac aaactccttt gtcatgtccc tggcagtggc tgactgcctt
+      241 gtaggcctgg tagtgatgcc atatagtatg atacggactg tggagggatg ctggtacttt
+      301 ggtgttcttt tttgtaagct acactctagc ctagatgtca tgctctgcac tgcctctata
+      361 tttcatctca gctgcattgc ttttgaccgc tactacgctg tctgcaatcc gcttgtttac
+      421 tctttaaaaa tgtcccgcag tcgggtagct ctccttattg ttgtgtgctg ggctgtaccc
+      481 atgctcattt cctttggccc cataatgcta gatcttcatg ttgctgatgt agacatcctg
+      541 ctccctaaag atgtatgcgt gttcttggtc aatcgcattt atgctgtcat ggcttccttg
+      601 gtagcctttt acttgccgat ggctgtcatg ctaatagcct actggaagat ctttaaagct
+      661 gcaaaacgtc aagccaggca gatcagcgcc atggaaagcc agatggctgc tggagtgggc
+      721 aaagactcaa gcaagaaaca aagacaccga aacactatga agagggaaag aaaggcagca
+      781 aaaactttgg ggataattat gggagttttc ctaatctttt ggatgccctt ctttacagtc
+      841 aacattgtgg acccgttcat tgattacagc acagaggtgg tcgtctggga tatatttttg
+      901 tggctaggat atatcaactc ctctctaaat cccttcctgt atggtttctt caaccgttcc
+      961 ttccgtaggg cattcctaat gttcattggc tgcagggtat gcttgcatgg gtcctcccct
+     1021 gggatggagc tgtcgcacac taaggaaaga ggcaaatgaa cgtgcagatc aaccat
+//
+
+LOCUS       XM_032544614            5533 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            2C-like (LOC116707299), mRNA.
+ACCESSION   XM_032544614
+VERSION     XM_032544614.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045751.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5533
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="19"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..5533
+                     /gene="LOC116707299"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 24 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:116707299"
+     CDS             1458..3197
+                     /gene="LOC116707299"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 2C-like"
+                     /protein_id="XP_032400505.1"
+                     /db_xref="GeneID:116707299"
+                     /translation="MGGPARALLGGFSTTTSSLEVGGRMAWPSNNPLDLNQTLPWGIG
+                     FGGSVGGAAAMSAGLDNFTQESVTRTVMKEKNWPALLILVIIALTIGGNILVILAVSL
+                     EKKLQNATNFFLRSLAVADMLVGILVMPVSLINILYDYAWPLPSALCPIWIYLDVLFS
+                     TASIMHLCAISLDRYVAIRNPIEHSRFNSRTKAMMKIAAVWTISIGVSMPIPVIGLHN
+                     EDKVFVNGSCVLNEERFMLIGSFVAFFIPLVIMVVTYCLTIQVLQRQATVFLCETKTS
+                     SQQPLHTPAMTNTLQPPPNTFHVPQITLAASDSQELKAPPPQSRRNTLSCLKGAEPSM
+                     LLSTSKSDSISIITSSEVASQLSSPAAGPGRSDTSGCHGRRGMMQAIKNERRASKVLG
+                     IVFFLFLIMWCPFFITNVTFVLCRGSCNESLLNDLLNVFVWVGYISSGVNPLVYTLFN
+                     KTYRRAFSSYIRCQYNVGANAAGPSCKTLLVPPPCSSHAVTPLLMGSHGKAGMDRNSN
+                     CRNGGRGDNGRLTVDPDDMTDDETQIGIVSHSLSECHNIDMLSETEPETETLGRAMFR
+                     QAGAGSLQRFYWL"
+ORIGIN      
+        1 ctctgctcca gtaaggagtc ctttatcgct ttctctctca tcccctccgc gctccggtct
+       61 tcggtgttaa aactttcctt aaaggagacg aatctttcag cctcctagta aacagatgaa
+      121 ccaacagtta ttgtttttcc tggaacttta agaaggacgc gtctcgtttc gcactggacc
+      181 aaaatggacc gcagaacgtg tccggagcgt ccgcactggt cctctgccgc tgtgtgcggg
+      241 acatactgaa aagaaatccg gactggaggt ggactgaacc tgcacgcgtt gtccgttctc
+      301 ttttcttctc tagtttacgg ctttgcatgc ctccgctcag aggatagccc aaatcagaag
+      361 cggagaatta ttcaacacga agagaggaca tggacatgcc atagccaggg ctcacaggtg
+      421 aaggaggatg tagctacaaa aagagggaca tcacaaactg cagggacgcg aaaagaacaa
+      481 tcggttgtct tcacggacaa gaagcacaca tcagaagttg agcgcctcaa gtcttaagaa
+      541 gatccaaaca acacttatgt gaatgtaaca aagcactgag gcagctcaac aaagcggtct
+      601 tactctacac tctacgccgt cggcaatgac agatggatga cgctgatccc tcaccccgga
+      661 ggtgtggagt gacagatgac agaggcactg acacggcggg agagagagaa aaagagagag
+      721 gtatcgctgg aaagggttac tgccgcccgt aagggaaaac aacttcaaag gtcatacaca
+      781 tcgatcggga ggcaagaaga aagcaacctg accatcgact ctgacctgaa agacgtaact
+      841 tgcaacatct tggacaccac agaccacagc agcaagattt acaactgaat gcagattata
+      901 aaactgaaac tcatccctaa actaactagc aaagatctag cagacagcaa ccatggatat
+      961 tagtacacca atcttcagct ctaaattaga aactcaaaga ctcttattta catcaagagg
+     1021 tggatgtgac tgatcctcta caaagcaaca ggggacattt gggctcagca tacaccttga
+     1081 gaacttgtcg ccaatgacga attggcaaga aatgggagat tcaaagctca gggaacaatc
+     1141 tgaggctgtt tgcagctagc aagactattg gaatacaata taaaatccaa aacactttta
+     1201 gccaagtcct cccaatcccc tctttcctgt cactccctat ccccaaagtt gcttccttcc
+     1261 tttttttccc cttcccctag atccttatta atggtgttct gttggtatta acaactcctt
+     1321 tacacacttc aaaactcttt aaataagtct tgatcaatgc tgagcacatc tcttcttctt
+     1381 cctgctgttg aagaaggtga attaaaatca ggtgagccct ctttcaacca ccaatagggt
+     1441 aagggtctct ctttgggatg ggcggcccag caagggctct tcttggcggg ttcagcacca
+     1501 ccacatcttc cctggaggtt ggaggtcgga tggcttggcc aagcaacaac cccctggacc
+     1561 tcaaccagac cctgccatgg gggatcgggt ttggaggcag cgttggaggt gcagcagcca
+     1621 tgagtgcagg tctggacaat ttcacccagg agtctgtcac caggacagtg atgaaagaga
+     1681 agaactggcc ggcgttgctc atactagtca tcatcgcact gacaatcgga ggcaacatcc
+     1741 ttgtgatcct ggcagtgtcg ctggagaaga agctccaaaa cgccaccaac ttcttcctga
+     1801 ggtcgctggc cgtggcggac atgctcgtag gcatcctggt catgccggtc tccctcatca
+     1861 acatcctcta tgactacgcc tggcctctcc ccagcgccct gtgtcccatc tggatctacc
+     1921 tggacgtgct gttctccacc gcctccatca tgcacctgtg tgctatctcc ctggatagat
+     1981 acgtcgccat ccgcaacccc atcgagcaca gccgcttcaa ctccagaacc aaagctatga
+     2041 tgaagatcgc cgccgtctgg accatatcta taggtgtgtc gatgcctatc ccagtgatcg
+     2101 gcctccacaa cgaggacaag gtgttcgtca acggcagctg tgtcctcaac gaggagcgct
+     2161 tcatgctgat tggctccttc gtggccttct tcatcccact ggtcatcatg gtggtgacgt
+     2221 actgcctcac catacaggtg ctccagaggc aggccactgt cttcctgtgc gagacgaaga
+     2281 cttcctccca gcagccattg cacacacccg caatgacaaa cacattgcag cctccgccca
+     2341 acaccttcca cgttccccag atcacacttg ctgcttcaga ctcacaagag ttaaaggccc
+     2401 cgccccctca gagcagacga aacaccttga gctgtctgaa aggagccgag cccagcatgc
+     2461 tgctcagcac ctccaagtca gatagcataa gcatcattac cagctcggag gtggcgtctc
+     2521 agctcagctc gccagcagcg ggaccgggac ggagcgacac gtcgggttgt cacgggcgac
+     2581 gggggatgat gcaggccata aagaacgaga ggcgggcctc caaggtcctg ggaatcgtgt
+     2641 tcttcctctt cctcatcatg tggtgtccct tcttcatcac caatgtcacc ttcgtcctgt
+     2701 gccggggctc ctgcaacgag tcgctgctca acgacctcct caacgtcttc gtctgggtgg
+     2761 gctacatctc ctctggagtc aaccctctgg tctacaccct cttcaataag acctacagga
+     2821 gagcgttctc cagctacatc aggtgccagt acaatgtggg ggccaacgca gccggaccga
+     2881 gttgcaaaac cctcctggtt cccccgccgt gctcgtcgca cgccgtgacc cccctgctga
+     2941 tgggcagtca cgggaaagcc ggcatggacc gcaatagtaa ctgtcgcaac ggcggtaggg
+     3001 gggacaacgg gaggctgacg gtggacccgg atgacatgac ggatgatgaa acacaaatcg
+     3061 gaatagtgtc gcacagcctg tctgaatgcc acaacattga catgctttcg gaaacggagc
+     3121 cggaaacgga gacgctgggc cgagcgatgt ttcgacaagc tggtgctgga agcctacagc
+     3181 gtttttattg gctgtaaacc tgcagtgggt ccttttattg tgaaaggact aatctcggtt
+     3241 gaggagcctt atccccagcc tggagtgcac tacttagcaa tgtatgagag aaattagatg
+     3301 aagagagagc ctctgagatg aaaaggtttt ggaatgaaag acaatattta atgtctgttg
+     3361 tctatttgcc gtcaaaatgt tggtttttcg ttacaaaaat ggaggataaa cgctgtgcat
+     3421 ggcagccagt gggttgtact tcatgggggg gggactaagg taccagctga gatccagaca
+     3481 ggtttggagt gcatgtgata agtagtcatt gaagagctta ttgtcattgt tgacctgtta
+     3541 tgaagtcctt ctgatgcagg ttacagagtc gagcgcccga ccgctgacgt cgacggggtc
+     3601 aaaccacgac ttcatgcctt cacactaagt ctaaaatgca gtccgagctc tggttatgtg
+     3661 gattcttctc cacaccaagc aagctaaacc aaatctattt ttgtgctggt caactagcga
+     3721 cagtcataaa aatatacctg aatgaacctt tccagcatgt ataatgaaac tattcagccg
+     3781 acagaaaggg gatttcactc gaaaaaggga actcactcga ggcagcagtc aaagtttgcc
+     3841 tgagaggacc gagatgaagg aatgtacaac gatcactggt ggactcgcag tgccatctgg
+     3901 tggtcgctcc acacagagag gtcacctccc ttggatcgaa caagggggct aaaagagcta
+     3961 aaaaaacatg gcgcaggcct ttggtctaac acagctgtca gcctcttgct tctgatgacc
+     4021 aatacaacca tttaggaaag agttaaagcc ccaacttcta aaggttttta ccaacaacaa
+     4081 tcaatcaagt ttcaaataaa agggagcaat ctaaaagtaa aaatgtgaat attagggtgc
+     4141 acacaaaggt ttcttagatg tcattcttaa aaggaagaaa atacctagat tagccatcat
+     4201 tatcactgat tcgcaatcat aaaataatag aaaacctccc cagctgttgt caaataacac
+     4261 ttacctttat tttccctaac ctgtggaatt ttggatggat cagcaatcaa ggacatctct
+     4321 atgtcgatat tccccaaatc taataatgga aatttagcat atgcatcttt gagtttggtg
+     4381 tcgtacaagt caactgctta atatacatat catatattat cagattacat atcagagtgg
+     4441 ccacagctgc agggcagaaa tctgtttgag attcacaaca tcatctctga gggacacgaa
+     4501 atgaatggtt tttattcaac catgagatcg gtcatttcct ctccaaagac ccctcagccc
+     4561 aaatttgcta agatgataca gtgaaagcca aagagaacag aacatttaag caataaactt
+     4621 tggattgaaa taagttccat cagagcccta tgttagatgt atgctgtgac ggtgggtttt
+     4681 aggatgaaaa gcgcaccaac atctccaaga attgcagttt tgacccctaa cttgatggtt
+     4741 acaaactttc tgatctctga ctgctttaca acagattggg cctgagtcac cactgtgact
+     4801 ccaagaccaa atagctttag atttcatctg tcgcgtaaaa cggacagaaa gtcaatacgc
+     4861 taagagacag gtccctgagt ttatcaagac aggtcagtaa ccctcacagc taagtcacgc
+     4921 tgattttctc gccctcccac attttatcga catctgacag gcggcggaat cccctccgca
+     4981 ctgcatcttc atcagctgaa atatctgcaa tgtactgcct taaaaaaaga cttcaatatt
+     5041 gtgtggattt tgaaggtgtc aaatttagat ttcttagcaa caagagaaaa tataagagat
+     5101 ataacctgaa actcatatgc atatagattg gctatgtagg tatagttcaa tagaaaaaaa
+     5161 gtctgtgtaa agtcttgatt tgagatgtgg gcaattaggg ggtccaatga aagatgctat
+     5221 tgagttgcat tttgggaatt gttgtgtttt tggagattga gactaaaagt caagatatct
+     5281 cagtctcagc tgatttgatt ttgacccatc tttgtttgag ttgtctcttt tgattctctg
+     5341 accattatgg aagtgcaata ctaaattgct gggatacccc tttaaatgca aaaaaaaaca
+     5401 ctgattgaca catttaatta ctaagtttac cttccagcct agattttttc ttaacaaagt
+     5461 cactttcccc actgatcaat aattaagttt ggtaatactc cctacagcca tagaaaagct
+     5521 aaaattacaa agg
+//
+
+LOCUS       XM_032543822            2058 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor
+            1B-like (LOC116706799), mRNA.
+ACCESSION   XM_032543822
+VERSION     XM_032543822.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq; corrected model.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045750.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            frameshifts :: corrected 1 indel
+            ##RefSeq-Attributes-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-412               VOFY01000018.1     4669218-4669629     c
+            413-2058            VOFY01000018.1     4667570-4669215     c
+FEATURES             Location/Qualifiers
+     source          1..2058
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="18"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..2058
+                     /gene="LOC116706799"
+                     /note="The sequence of the model RefSeq transcript was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 2 bases in 1 codon;
+                     Derived by automated computational analysis using gene
+                     prediction method: Gnomon. Supporting evidence includes
+                     similarity to: 36 Proteins, and 99% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:116706799"
+     CDS             386..1579
+                     /gene="LOC116706799"
+                     /note="The sequence of the model RefSeq protein was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 2 bases in 1 codon"
+                     /codon_start=1
+                     /product="LOW QUALITY PROTEIN: 5-hydroxytryptamine
+                     receptor 1B-like"
+                     /protein_id="XP_032399713.1"
+                     /db_xref="GeneID:116706799"
+                     /translation="MTGGSDGGKMGGMENASALKPTPVSYGELLNVSTNYIWANFTSK
+                     EEERDSNLAFQAGLGATLTLITLATTLSNAFVIATIYQSRKLHTPANFLIASLAVTDL
+                     LVSILVMPISALYTVSQTWTLGQVMCDIWLSSDITCCTASILHLCVIALDRYWAITDA
+                     VEYSKKRTMGRAAGMIATAWVIAISISLPPFFWRQVKAEEMTSCNVNTDHIFYTIYST
+                     FGAFYIPTLLLIALYGRIYVEARKRILKQAHKKPGKRLTSAHLITDSPGSVASTTSLN
+                     YGTNDASSSCDAASCQVHANQVKVTVSDALLEKKRISAARERKATKTLGIILGAYIIC
+                     WLPFFIYTLLVPVCEACFHPELFDIFTWLGYLNSLINPIIYTMSNEDFKQAFHKLIRF
+                     RCCRA"
+ORIGIN      
+        1 cttgagcagc tctgaacttg tgagcagaca ctgaacggat taaaaaccag agacaaagtg
+       61 ttcatgaatc gttcctctga actctggatg atgtgggaaa tgatttcaat acctcagaag
+      121 aagatccgct gatgatggag agccatttca ttttcattac ctggatgtgt atgtggagga
+      181 aatgggtgtg aaaaggctgc gggtgaagtg agaaagatga agaggaggag gcagaaatgt
+      241 gtctctgtgg aaacacctgt cgtctgactg ctgctggaaa tggagccgct tttatttggg
+      301 tgcatacaaa aaggatgagc agcgcgcgtg atggatgaat gtctgaggga cttgaggctg
+      361 atctccaggc ttcccttcgc gctcaatgac agggggatct gacggcggaa agatgggagg
+      421 gatggagaat gccagtgcgc tcaaaccaac gcctgtcagc tatggagagc tgttgaacgt
+      481 ctccacaaac tatatctggg ccaatttcac ctcgaaagag gaggagaggg acagcaactt
+      541 ggctttccag gcgggactag gcgcgacttt gacgctcata actttggcca ccacgctttc
+      601 aaacgcgttc gtcatcgcca ccatttacca gtcccgaaaa ctacacaccc cggcgaactt
+      661 tctgatcgcc tccctggcgg tcacggacct cctggtgtcc attttggtga tgcccatcag
+      721 cgcgctgtac acggtcagcc aaacgtggac tttggggcag gtgatgtgcg acatctggct
+      781 gtcctcggat ataacctgct gcaccgcgtc catcctgcac ctgtgcgtaa ttgcgctgga
+      841 ccgctactgg gccattacgg acgccgtgga gtactccaaa aagcgcacga tggggcgcgc
+      901 cgccgggatg atcgccaccg cctgggtgat cgccatctcc atctcgctgc cgccgttctt
+      961 ctggcgccag gtgaaggcgg aggagatgac gagctgcaac gtgaacacgg accacatttt
+     1021 ctacaccatc tactccacgt tcggcgcgtt ctacatcccc acgctgctgc tcatcgcgct
+     1081 gtacgggcgg atctacgtgg aggcgcgcaa gcgcatcctg aagcaggcgc acaagaagcc
+     1141 ggggaagagg ctcacctccg cgcatcttat caccgactcc cccgggtccg tggcgtccac
+     1201 gacctcgctc aactacggca cgaacgacgc ctcctcctcg tgcgacgctg cgtcgtgcca
+     1261 agtgcacgcg aaccaagtca aagtgaccgt gtccgacgcg ctgctggaga agaagcgcat
+     1321 ctccgccgca agggagagga aagcgaccaa aactttggga ataatcctgg gagcctacat
+     1381 catatgctgg ctgccgtttt tcatttacac cctcctcgtg cctgtgtgcg aggcctgctt
+     1441 ccacccggag ctatttgaca ttttcacgtg gctgggttac ctcaactctt taatcaaccc
+     1501 catcatctac accatgtcca acgaggactt caagcaggct ttccacaaac tgatacggtt
+     1561 tagatgctgc agggcgtgaa ggacagttag cagatataat aatgtcctct cacaggggcg
+     1621 gagccggggg gcttctgggg ccacagcccc caatgttttt caaaggcccc taatcattta
+     1681 gccagtttaa cattaaggtt tgttttcact agccttcctc aaaatgtttg cccgaaatca
+     1741 atttttaggg ggcccctaaa aaaaaaaaat ttgagaaaaa aagatgtttg aaacaatgtc
+     1801 gaaaaaaggg tcgaaagaac tcaccgaaaa aagtgtcaaa tgttgaaaaa agcacagaga
+     1861 aagtcaaaag gctgaaaaaa aaaaacctta aaaaaaaaaa ggttgaaaaa aagtgccaag
+     1921 cccagaacgg ctgaggcagg gttcaacgtc aaggttttct tttcccttat ccggtctggt
+     1981 aagtgaaaaa aaattctact tggctaatat gaactttcac aaatacttat aagatttagt
+     2041 tttttggaag aaaagaaa
+//
+
+LOCUS       XM_032543651            1498 bp    mRNA    linear   VRT 21-FEB-2020
+DEFINITION  PREDICTED: Etheostoma spectabile 5-hydroxytryptamine receptor 1E
+            (htr1e), mRNA.
+ACCESSION   XM_032543651
+VERSION     XM_032543651.1
+DBLINK      BioProject: PRJNA606051
+KEYWORDS    RefSeq.
+SOURCE      Etheostoma spectabile (orangethroat darter)
+  ORGANISM  Etheostoma spectabile
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Perciformes; Percoidei; Percidae;
+            Etheostomatinae; Etheostoma.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_045750.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Etheostoma spectabile Annotation
+                                           Release 100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1498
+                     /organism="Etheostoma spectabile"
+                     /mol_type="mRNA"
+                     /isolate="EspeVRDwgs_2016"
+                     /db_xref="taxon:54343"
+                     /chromosome="18"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Vermillion River drainage, Champaign
+                     County, IL"
+     gene            1..1498
+                     /gene="htr1e"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 39 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 4 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:116706715"
+     CDS             275..1408
+                     /gene="htr1e"
+                     /codon_start=1
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /protein_id="XP_032399542.1"
+                     /db_xref="GeneID:116706715"
+                     /translation="MDKESYPGWSARPNITNCTVPPASSRQAIQFTDGIAVVVFVLSL
+                     LTFLTALINAAVIVAICTTKKLHLPANYLICSLAVTDFLVALLVMPISILYITMETWS
+                     LGQVVCELWLSVDMTCCTCSILHLCVIALDRYWAITKAIEYARKRSARRAAIMVGIVW
+                     VISVLISMPPLFWRQRPSSGSLKQCIIEHDHLGYTIYSTLGAFYIPMFIILILYYRIY
+                     NAAKTLYQKRGSSRHLSSRSLGSQNSGEHCRVSHTFCLSDLSNSDPMLATDKLNTTIR
+                     ISSLETDMDGQDEKNQICTSRERKAARILGLILGAFIICWLPFFSKEVLVGLQMVQPS
+                     PLLSDFLTWLGYINSLINPLLYTSFNDDFKMAFKKLLKRKEHA"
+ORIGIN      
+        1 gatactcgtt ccgtgaatca gtgcacgcgg tcatcgtaag tttattttta atttttttct
+       61 gtttgcccat tatgtgaaga gagctgagaa aacgctgcag atttgtgcaa caggagcgca
+      121 aaactcgcat cccaccaatt gttgatgctt aacatgcggg atgagaggag cagatgagag
+      181 agggcttggt gacgaaacgt caatgactga cctttgactt gtgagggagc gttgtctccc
+      241 tgggagggag gaagtagcca gcccaggtct agggatggac aaggaaagct acccagggtg
+      301 gagcgcccga cccaacatca caaactgcac cgtcccacct gccagcagcc ggcaggcaat
+      361 ccaattcaca gacgggatcg cggtggtggt ttttgttctc agcctcctta ccttcctcac
+      421 tgcgctcatt aatgccgctg tcatcgtcgc catctgcacc accaagaagc tccacctgcc
+      481 cgccaactac ctcatctgct ctctagccgt cactgacttc ctggtggcgc tcctcgtgat
+      541 gcccataagc atcctctaca tcacaatgga gacatggtcc ctgggtcagg tggtgtgcga
+      601 gttgtggttg agcgtggaca tgacctgctg cacctgctcc atcctgcacc tgtgcgtcat
+      661 tgccctggac aggtactggg ccatcaccaa agctatcgag tatgctcgca agaggtcagc
+      721 ccgccgcgca gccatcatgg tgggaatagt ctgggtcatt tcagttttaa tatccatgcc
+      781 acccttattc tggaggcaga ggccaagcag cggcagcctc aaacagtgca tcatagagca
+      841 tgatcacctg ggatacacta tatactctac tttgggggca ttttacattc ccatgttcat
+      901 cattcttatc ttatactaca ggatttacaa tgccgcaaaa actctttacc agaagcgtgg
+      961 ctcttctcgc cacctcagca gccgcagcct gggcagtcag aactctggag aacattgccg
+     1021 tgtttcccac acattttgtc tgtcagactt gtccaactca gatcccatgc tggctactga
+     1081 caaactcaac actaccatcc gcatctcatc ccttgagaca gacatggacg ggcaggatga
+     1141 gaagaaccaa atatgtacct cacgtgagag gaaagcagct cgaatcctcg gcctcatcct
+     1201 cggggccttc atcatctgct ggctgccttt cttttcaaag gaggtcctag tgggtctgca
+     1261 aatggtacag ccttctccgc ttttatcaga cttcctgaca tggctgggtt atatcaactc
+     1321 tctcattaat cccctgctgt acaccagctt caatgacgat ttcaaaatgg cttttaaaaa
+     1381 gctactcaag agaaaagagc atgcataggt ttgaggtttg aagggaatgt atacaccttt
+     1441 aactaagttg taatctctac tggcagtatg aagtgtgatg tgcttttcac agacaata
+//
+

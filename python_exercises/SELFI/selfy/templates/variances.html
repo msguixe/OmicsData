@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <p>The P-value is </p>
+    <p class="sequence">{{ output }}</p>
+    <p>Bartlett's test  is used to test if two samples are from populations with equal variances. If test p-value >0.05 the variances are equal , if p-value <0.05 the variances are not equal. </p> 
+
+    <a href="https://en.wikipedia.org/wiki/Bartlett%27s_test"> Click here for more info about Bartlett's test </a>
+</div>
+{% endblock %}

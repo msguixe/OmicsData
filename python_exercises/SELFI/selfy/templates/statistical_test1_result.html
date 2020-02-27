@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <p>The P-value is </p>
+    <p class="sequence">{{ output }}</p>
+    <p>The Shapiro–Wilk test tests the null hypothesis that a sample came from a normally distributed population. If Shapiro p-value >0.05 the data follow a normal distribution , if p-value <0.05 Data DO NOT follow a normal distribution </p> 
+    <p> If your data follow the normal you can use parametic statisticals test (ex: t test), if not you must use non parametric test (ex: Wilcoxon test). If just one of the variables to be tested does not follow the normal you must use non parametric test</p>
+    <a href="https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test"> Click here for more info about Shapiro Wilk test </a>
+</div>
+{% endblock %}

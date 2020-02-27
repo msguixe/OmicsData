@@ -1,0 +1,8 @@
+Test Aminoacyds Analysis:
+- P97445
+
+Test Motifs:
+- O45293
+
+Test Domains:
+- Q52107

@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <br><br>
+    <form action="/statistical_test1_result" method="POST">
+        <label>Please copy your  numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable1" rows=5 cols=110></textarea>
+        <br><br>
+        <label>If you want to evaluate if the mean is equal to a prespecified value ,please type your prespecified value. IF YOU ARE TESTING FOR NORMALITY LEAVE IT BLANK:</label><br>
+        <textarea name="input_variable2" rows=1 cols=1></textarea>
+        <br><br>
+        <input type="radio" name="statistical_test1" value="normality">
+        <label>Shapiro-Wilk normality test </label><br>
+        <input type="radio" name="statistical_test1" value="mean">
+        <label>Test for the mean when the data FOLLOW a normal distribution: T-test t for one sample</label><br>
+        <input type="radio" name="statistical_test1" value="nonmean">
+        <label>Test for the mean when the data NOT follow a normal distribution: Wilcoxon test for one sample</label><br>
+        <input type="submit" name="submit" value="Let's do it!">
+        <p></p><br>
+    </form>
+</div>
+{% endblock %}
+

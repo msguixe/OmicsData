@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <p>The P-value is </p>
+    <p class="sequence">{{ output }}</p>
+    <p>The Student's t-test for the equality of two means tests the null hypothesis that the means of two populations are equal. If t-test p-value >0.05 the data means are equal  , if p-value <0.05 means are not equal. REMEMEBER your data MUST follow a normal distribution for using the Student's t-test </p> 
+
+    <a href="https://en.wikipedia.org/wiki/Student%27s_t-test"> Click here for more info about  t-test </a>
+</div>
+{% endblock %}

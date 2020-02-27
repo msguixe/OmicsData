@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <p>The P-value is </p>
+    <p class="sequence">{{ output }}</p>
+    <p>The Wilcoxon test for the equality of two means tests the null hypothesis that the means of two populations are equal . If test p-value >0.05 the population means are equal , if p-value <0.05 the means are not equal. </p> 
+
+    <a href="https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test"> Click here for more info about Wilcoxon test </a>
+</div>
+{% endblock %}

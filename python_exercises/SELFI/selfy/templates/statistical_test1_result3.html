@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <p>The P-value is </p>
+    <p class="sequence">{{ output }}</p>
+    <p>The Wilcoxon for the mean tests the null hypothesis that the mean  is equal to a prespecified value . If test p-value >0.05 the data mean is equal to the prespecified value , if p-value <0.05 data mean is not equal to the prespecified value. </p> 
+
+    <a href="https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test"> Click here for more info about Wilcoxon test </a>
+</div>
+{% endblock %}

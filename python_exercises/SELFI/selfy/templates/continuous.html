@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <br><br>
+    <form action="/continuous_results" method="POST">
+        <label>Please copy your  numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable" rows=5 cols=110></textarea>
+        <br><br>
+        <input type="radio" name="continuous" value="mean">
+        <label>mean</label><br>
+        <input type="radio" name="continuous" value="median">
+        <label>median</label><br>
+        <input type="radio" name="continuous" value="sd">
+        <label>standard deviation</label><br>
+        <input type="radio" name="continuous" value="iqr">
+        <label>interquartile range</label><br>
+        <br>
+        <input type="submit" name="submit" value="Let's do it!">
+        <p></p><br>
+    </form>
+</div>
+{% endblock %}
+

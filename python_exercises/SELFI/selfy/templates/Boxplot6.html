@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <br><br>
+    <form action="/boxplotsix_results" method="POST">
+        <label>Please copy your 1st numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable1" rows=5 cols=110></textarea>
+    <form action="/boxplotsix_results" method="POST"><br>
+        <label>Please copy your 2nd numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable2" rows=5 cols=110></textarea>
+    <form action="/boxplotsix_results" method="POST"><br>
+        <label>Please copy your 3rd numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable3" rows=5 cols=110></textarea>
+    <form action="/boxplotsix_results" method="POST"><br>
+         <label>Please copy your 4th numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable4" rows=5 cols=110></textarea>
+    <form action="/boxplotsix_results" method="POST"><br>
+        <label>Please copy your 5th numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable5" rows=5 cols=110></textarea>
+    <form action="/boxplotsix_results" method="POST"><br>
+        <label>Please copy your 6th numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable6" rows=5 cols=110></textarea>
+<br>
+    <input type="submit" name="submit" value="Let's do it!">
+</div>
+{% endblock %}

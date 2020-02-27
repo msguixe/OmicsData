@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <br><br>
+    <form action="/twocontinuous_results" method="POST">
+        <label>Please copy your 1st numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable1" rows=5 cols=110></textarea><br>
+    <form action="/twocontinuous_results" method="POST">
+        <label>Please copy your 2nd numeric variable directly from your excel column:</label><br>
+        <textarea name="input_variable2" rows=5 cols=110></textarea>
+        <br>
+        <input type="radio" name="twocontinuous" value= "pearson">
+        <label>Pearson correlation coefficient</label><br>
+        <input type="radio" name="twocontinuous" value= "spearman">
+        <label>Spearman correlation coefficient</label>
+        <br>
+        <input type="submit" name="submit" value="Let's do it!">
+        <p></p><br>
+    </form>
+</div>
+{% endblock %}
+
